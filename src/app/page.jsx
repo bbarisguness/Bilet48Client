@@ -1,18 +1,14 @@
-import Wrapper from "@/components/layout/Wrapper";
-
 export async function generateMetadata({ params, searchParams }, parent) {
   return {
-    title: 'test',
-    description: 'test123'
-  }
+    title: "Bilet 48",
+    description: "Bilet 48 description",
+  };
 }
 
 export default function Home({ params, searchParams }) {
   return (
     <>
-      <Wrapper>
-        test
-      </Wrapper>
+      <div>asd</div>
     </>
   );
 }
