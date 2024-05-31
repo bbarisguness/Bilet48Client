@@ -1,6 +1,7 @@
 "use client";
 
 import Header6 from "@/components/header/header-6";
+import Footer8 from "@/components/footer/footer-8";
 import ScrollToTop from "@/components/common/ScrollTop";
 import Aos from "aos";
 import { useEffect } from "react";
@@ -42,6 +43,7 @@ export default function RootLayout({ children }) {
         <main>
           <Header6 />
           {children}
+          <Footer8 />
           <ScrollToTop />
         </main>
       </body>
