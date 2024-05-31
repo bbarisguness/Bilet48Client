@@ -67,7 +67,7 @@ const Header6 = () => {
                 {/* End btn-group */}
 
                 {/* Start mobile menu icon */}
-                <div className="d-none xl:d-flex x-gap-20 items-center pl-30 text-white">
+                <div className="d-none xl:d-flex x-gap-20 items-center pl-30">
                   <div>
                     <Link
                       href="/login"
