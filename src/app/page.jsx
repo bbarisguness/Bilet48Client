@@ -1,3 +1,5 @@
+import Hero6 from "@/components/hero/hero-6";
+
 export async function generateMetadata({ params, searchParams }, parent) {
   return {
     title: "Bilet 48",
@@ -6,5 +8,7 @@ export async function generateMetadata({ params, searchParams }, parent) {
 }
 
 export default function Home({ params, searchParams }) {
-  return <></>;
+  return (
+    <Hero6 />
+  )
 }
