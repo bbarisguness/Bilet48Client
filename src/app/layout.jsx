@@ -1,8 +1,9 @@
 "use client";
 
+import Header6 from "@/components/header/header-6";
+import ScrollToTop from "@/components/common/ScrollTop";
 import Aos from "aos";
 import { useEffect } from "react";
-import ScrollToTop from "@/components/common/ScrollTop";
 import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
@@ -39,6 +40,7 @@ export default function RootLayout({ children }) {
       </head>
       <body>
         <main>
+          <Header6 />
           {children}
           <ScrollToTop />
         </main>

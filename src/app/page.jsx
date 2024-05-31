@@ -6,9 +6,5 @@ export async function generateMetadata({ params, searchParams }, parent) {
 }
 
 export default function Home({ params, searchParams }) {
-  return (
-    <>
-      <div>asd</div>
-    </>
-  );
+  return <></>;
 }
