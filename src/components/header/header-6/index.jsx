@@ -26,7 +26,7 @@ const Header6 = () => {
   return (
     <>
       {" "}
-      <header className={`header ${navbar ? "bg-dark-1 is-sticky" : ""}`}>
+      <header className={`header ${navbar ? "bg-dark-4 is-sticky" : ""}`}>
         <div className="header__container container">
           <div className="row justify-between items-center">
             <div className="col-auto">
