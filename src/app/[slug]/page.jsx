@@ -4,6 +4,7 @@ import SlideGallery from "@/components/rental-single/SlideGallery";
 import PropertyHighlights from "@/components/rental-single/PropertyHighlights";
 import Overview from "@/components/rental-single/Overview";
 import SidebarRight from "@/components/rental-single/SidebarRight";
+import NotFound from "@/components/common/NotFound";
 
 export async function generateMetadata({ params }) {
   const eventData = rentalsData.find((item) => item.slug == params.slug);
@@ -135,6 +136,14 @@ export default function Page({ params }) {
       </>
     );
   } else {
-    return <div className="header-margin"></div>;
+    return (
+      <>
+        <div className="header-margin"></div>
+        {/* header top margin */}
+
+        <NotFound />
+        {/* End 404 section */}
+      </>
+    );
   }
 }
