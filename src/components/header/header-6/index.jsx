@@ -8,6 +8,38 @@ import MobileMenu from "../MobileMenu";
 const Header6 = () => {
   const [navbar, setNavbar] = useState(false);
 
+  const activeHeaderTheme = 1;
+  const navbarThemes = [
+    {
+      logo: "/img/general/logo-light.svg",
+      headerBackgroundColor: "",
+      headerItemsColor: "text-dark",
+      becomeButton: "bg-dark-4 text-white",
+      signButton: "border-dark-4 text-dark-4",
+      isSticky: {
+        logo: "/img/general/logo-dark-3.svg",
+        headerBackgroundColor: "bg-dark-4 is-sticky",
+        headerItemsColor: "text-white",
+        becomeButton: "bg-white",
+        signButton: "border-white text-white",
+      },
+    },
+    {
+      logo: "/img/general/logo-dark-3.svg",
+      headerBackgroundColor: "",
+      headerItemsColor: "text-dark",
+      becomeButton: "bg-dark-4 text-white",
+      signButton: "border-dark-4 text-dark-4",
+      isSticky: {
+        logo: "/img/general/logo-dark-3.svg",
+        headerBackgroundColor: "bg-white is-sticky",
+        headerItemsColor: "text-dark",
+        becomeButton: "bg-dark-4 text-white",
+        signButton: "border-dark-4 text-dark-4",
+      },
+    },
+  ];
+
   const changeBackground = () => {
     if (window.scrollY >= 10) {
       setNavbar(true);
@@ -26,16 +58,28 @@ const Header6 = () => {
   return (
     <>
       {" "}
-      <header className={`header ${navbar ? "bg-dark-4 is-sticky" : ""}`}>
+      <header
+        className={`header ${
+          !navbar
+            ? navbarThemes[activeHeaderTheme].headerBackgroundColor
+            : navbarThemes[activeHeaderTheme].isSticky.headerBackgroundColor
+        }`}
+      >
         <div className="header__container container">
           <div className="row justify-between items-center">
             <div className="col-auto">
               <div className="d-flex items-center">
                 <Link href="/" className="header-logo mr-20">
                   {navbar ? (
-                    <img src="/img/general/logo-light.svg" alt="logo icon" />
+                    <img
+                      src={navbarThemes[activeHeaderTheme].logo}
+                      alt="logo icon"
+                    />
                   ) : (
-                    <img src="/img/general/logo-dark-3.svg" alt="logo icon" />
+                    <img
+                      src={navbarThemes[activeHeaderTheme].isSticky.logo}
+                      alt="logo icon"
+                    />
                   )}
                 </Link>
                 {/* End logo */}
@@ -48,7 +92,14 @@ const Header6 = () => {
               <div className="d-flex items-center">
                 <div className="header-menu">
                   <div className="header-menu__content">
-                    <MainMenu style={navbar ? "text-white" : "text-dark"} />
+                    <MainMenu
+                      style={
+                        !navbar
+                          ? navbarThemes[activeHeaderTheme].headerItemsColor
+                          : navbarThemes[activeHeaderTheme].isSticky
+                              .headerItemsColor
+                      }
+                    />
                   </div>
                 </div>
                 {/* End header-menu */}
@@ -58,7 +109,9 @@ const Header6 = () => {
                   <Link
                     href="/login"
                     className={`button px-30 fw-400 text-14 -blue-1 h-50 ${
-                      !navbar ? "bg-dark-4 text-white" : "bg-white"
+                      !navbar
+                        ? navbarThemes[activeHeaderTheme].becomeButton
+                        : navbarThemes[activeHeaderTheme].isSticky.becomeButton
                     }`}
                   >
                     Become An Expert
@@ -66,7 +119,9 @@ const Header6 = () => {
                   <Link
                     href="/signup"
                     className={`button px-30 fw-400 text-14 -blue-1 h-50 ml-20 ${
-                      !navbar ? "border-dark-4 text-dark-4" : "border-white text-white"
+                      !navbar
+                        ? navbarThemes[activeHeaderTheme].signButton
+                        : navbarThemes[activeHeaderTheme].isSticky.signButton
                     }`}
                   >
                     Sign In / Register
