@@ -11,6 +11,7 @@ import "swiper/css/navigation";
 import "swiper/css/scrollbar";
 import "swiper/css/effect-cards";
 import "aos/dist/aos.css";
+import "photoswipe/dist/photoswipe.css";
 import "../styles/index.scss";
 
 if (typeof window !== "undefined") {
