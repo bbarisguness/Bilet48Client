@@ -8,6 +8,7 @@ export default function Buy() {
   const data = useSelector((state) => state.buyPageSelectedTicket);
   if (data.categoryId < 1) {
     router.push("/");
+    return;
   }
 
   return (
