@@ -28,11 +28,10 @@ const MainMenu = ({ style = "" }) => {
             isActiveParentChaild(homeItems, pathname) ? "current" : ""
           } menu-item-has-children`}
         >
-          <a href="#">
+          <Link href="/">
             <span className="mr-10">Home</span>
-            <i className="icon icon-chevron-sm-down" />
-          </a>
-          <ul className="subnav">
+          </Link>
+          {/* <ul className="subnav">
             {homeItems.map((menu, i) => (
               <li
                 key={i}
@@ -43,11 +42,11 @@ const MainMenu = ({ style = "" }) => {
                 <Link href={menu.routePath}>{menu.name}</Link>
               </li>
             ))}
-          </ul>
+          </ul> */}
         </li>
         {/* End home page menu */}
 
-        <li
+        {/* <li
           className={
             isActiveParent
               ? "menu-item-has-children -has-mega-menu current"
@@ -61,12 +60,12 @@ const MainMenu = ({ style = "" }) => {
           <div className="mega">
             <CategoriesMegaMenu setIsActiveParent={setIsActiveParent} />
           </div>
-        </li>
+        </li> */}
         {/* End categories menu items */}
 
-        <li className={pathname === "/destinations" ? "current" : ""}>
+        {/* <li className={pathname === "/destinations" ? "current" : ""}>
           <Link href="/destinations">Destinations</Link>
-        </li>
+        </li> */}
         {/* End Destinatinos single menu */}
 
         <li
@@ -74,11 +73,10 @@ const MainMenu = ({ style = "" }) => {
             isActiveParentChaild(blogItems, pathname) ? "current" : ""
           } menu-item-has-children`}
         >
-          <a href="#">
+          <Link href="/blog">
             <span className="mr-10">Blog</span>
-            <i className="icon icon-chevron-sm-down" />
-          </a>
-          <ul className="subnav">
+          </Link>
+          {/* <ul className="subnav">
             {blogItems.map((menu, i) => (
               <li
                 key={i}
@@ -89,19 +87,19 @@ const MainMenu = ({ style = "" }) => {
                 <Link href={menu.routePath}>{menu.name}</Link>
               </li>
             ))}
-          </ul>
+          </ul> */}
         </li>
         {/* End blogIems */}
 
-        <li
+        {/* <li
           className={`${
             isActiveParentChaild(pageItems, pathname) ? "current" : ""
           } menu-item-has-children`}
         >
-          <a href="#">
+          <Link href="#">
             <span className="mr-10">Pages</span>
             <i className="icon icon-chevron-sm-down" />
-          </a>
+          </Link>
           <ul className="subnav">
             {pageItems.map((menu, i) => (
               <li
@@ -114,10 +112,10 @@ const MainMenu = ({ style = "" }) => {
               </li>
             ))}
           </ul>
-        </li>
+        </li> */}
         {/* End pages items */}
 
-        <li
+        {/* <li
           className={`${
             pathname.split("/")[1] == "dashboard" ||
             pathname.split("/")[1] == "vendor-dashboard"
@@ -125,10 +123,10 @@ const MainMenu = ({ style = "" }) => {
               : ""
           } menu-item-has-children`}
         >
-          <a href="#">
+          <Link href="#">
             <span className="mr-10">Dashboard</span>
             <i className="icon icon-chevron-sm-down" />
-          </a>
+          </Link>
           <ul className="subnav ">
             {dashboardItems.map((menu, i) => (
               <li
@@ -141,7 +139,7 @@ const MainMenu = ({ style = "" }) => {
               </li>
             ))}
           </ul>
-        </li>
+        </li> */}
 
         <li className={pathname === "/contact" ? "current" : ""}>
           <Link href="/contact">Contact</Link>

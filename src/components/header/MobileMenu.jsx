@@ -63,7 +63,7 @@ const MobileMenu = () => {
 
       <Sidebar width="400" backgroundColor="#fff">
         <Menu>
-          <SubMenu
+          {/* <SubMenu
             label="Home"
             className={
               homeItems.some(
@@ -87,10 +87,10 @@ const MobileMenu = () => {
                 {item.name}
               </MenuItem>
             ))}
-          </SubMenu>
+          </SubMenu> */}
           {/* End  All Home Menu */}
 
-          <SubMenu
+          {/* <SubMenu
             label="Categories"
             className={isActiveParent ? "menu-active-link" : ""}
           >
@@ -131,18 +131,34 @@ const MobileMenu = () => {
                 ))}
               </SubMenu>
             ))}
-          </SubMenu>
+          </SubMenu> */}
           {/* End  All Categories Menu */}
 
           <MenuItem
+            data-bs-dismiss="offcanvas"
+            onClick={() => router.push("/")}
+            className={pathname === "/" ? "menu-active-link" : ""}
+          >
+            Home
+          </MenuItem>
+
+          <MenuItem
+            data-bs-dismiss="offcanvas"
             onClick={() => router.push("/destinations")}
             className={pathname === "/destinations" ? "menu-active-link" : ""}
           >
             Desitinations
           </MenuItem>
-          {/* End  Desitinations Menu */}
 
-          <SubMenu
+          <MenuItem
+            data-bs-dismiss="offcanvas"
+            onClick={() => router.push("/blog")}
+            className={pathname === "/blog" ? "menu-active-link" : ""}
+          >
+            Blog
+          </MenuItem>
+
+          {/* <SubMenu
             label="Blog"
             className={
               blogItems.some(
@@ -166,10 +182,10 @@ const MobileMenu = () => {
                 {item.name}
               </MenuItem>
             ))}
-          </SubMenu>
+          </SubMenu> */}
           {/* End  All Blog Menu */}
 
-          <SubMenu
+          {/* <SubMenu
             label="Pages"
             className={
               pageItems.some(
@@ -193,10 +209,10 @@ const MobileMenu = () => {
                 {item.name}
               </MenuItem>
             ))}
-          </SubMenu>
+          </SubMenu> */}
           {/* End  All Pages Menu */}
 
-          <SubMenu
+          {/* <SubMenu
             label="Dashboard"
             className={
               pathname.split("/")[1] == "dashboard" ||
@@ -218,10 +234,11 @@ const MobileMenu = () => {
                 {item.name}
               </MenuItem>
             ))}
-          </SubMenu>
+          </SubMenu> */}
           {/* End  All Dashboard Menu */}
 
           <MenuItem
+            data-bs-dismiss="offcanvas"
             onClick={() => router.push("/contact")}
             className={pathname === "/contact" ? "menu-active-link" : ""}
           >
@@ -241,14 +258,14 @@ const MobileMenu = () => {
             <Social />
           </div>
         </div>
-        <div className="mt-20">
+        {/* <div className="mt-20">
           <Link
             className=" button -dark-1 px-30 fw-400 text-14 bg-blue-1 h-50 text-white"
             href="/login"
           >
             Become An Expert
           </Link>
-        </div>
+        </div> */}
       </div>
       {/* End pro-footer */}
     </>
