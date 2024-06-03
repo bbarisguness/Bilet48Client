@@ -5,6 +5,7 @@ import PropertyHighlights from "@/components/rental-single/PropertyHighlights";
 import Overview from "@/components/rental-single/Overview";
 import SidebarRight from "@/components/rental-single/SidebarRight";
 import NotFound from "@/components/common/NotFound";
+import Link from "next/link";
 
 export async function generateMetadata({ params }) {
   const eventData = rentalsData.find((item) => item.slug == params.slug);
@@ -81,10 +82,13 @@ export default function Page({ params }) {
                       {/* End .col-auto */}
 
                       <div className="col-auto">
-                        <button className="button px-15 py-10 -blue-1 bg-light-2 mt-10">
+                        <Link
+                          href="/buy"
+                          className="button px-15 py-10 -blue-1 bg-light-2 mt-10"
+                        >
                           <i className="icon-ticket mr-10" />
                           BİLET AL
-                        </button>
+                        </Link>
                       </div>
                       {/* End .col-auto */}
                     </div>

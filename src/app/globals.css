@@ -1,3 +1,214 @@
 /* Header STYLE BEGİN */
 
 /* Header STYLE END */
+
+.ticketCategoryItem {
+  position: relative;
+  width: "100%";
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid rgb(192, 192, 192);
+  border-radius: 20px;
+  padding: 20px 10px;
+  overflow: hidden;
+  transition: 0.3s all;
+}
+
+.ticketCategoryItem:hover {
+  cursor: pointer;
+  background-color: #0000002f;
+  border-color: #000000;
+}
+
+.ticketCategoryItem .buyButton {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  background-color: #252427;
+  padding: 0 15px;
+  color: #fff;
+  border-radius: 20px 0 0 0;
+}
+
+.ticketCategoryItem .buyButton .text {
+  margin-left: 5px;
+}
+
+.tt-width-01 {
+  max-width: 520px;
+  background-color: #fff;
+  padding: 40px 0;
+  border-radius: 20px;
+}
+
+.eventInformation {
+  padding: 30px;
+  margin-bottom: 30px;
+  padding: 30px;
+}
+
+.eventInformation .box-header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.eventInformation .box-header .box-header-title {
+  display: flex;
+  align-items: center;
+  flex: 1;
+  grid-gap: 0 10px;
+  gap: 0 10px;
+  font-size: 24px;
+  font-weight: 600;
+  color: #000000;
+}
+
+.eventInformation .rules {
+  padding: 10px 0;
+  position: relative;
+}
+
+.eventInformation .rules ul {
+  display: flex;
+  flex-direction: column;
+  grid-gap: 15px 0;
+  gap: 15px 0;
+  overflow: hidden;
+  transition: 0.5s all;
+}
+
+.eventInformation .rules ul.active {
+  max-height: 1500px;
+  padding-bottom: 60px;
+}
+
+.eventInformation .rules > ul {
+  max-height: 160px;
+}
+
+.eventInformation .rules > ul p {
+  font-size: 16px;
+  font-weight: 500;
+  color: #4b4b4b;
+  position: relative;
+  padding-left: 23px;
+}
+
+.eventInformation .rules > ul p:before {
+  content: "";
+  background: #2ed87b;
+  width: 10px;
+  height: 75%;
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  border-radius: 5px;
+}
+
+.eventInformation .rules .rules-read-more-area {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 160px;
+  background: linear-gradient(0deg, #ffffff 0%, rgba(255, 255, 255, 0) 100%);
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  pointer-events: none;
+}
+
+.eventInformation .rules .rules-read-more-area.active {
+  background: transparent;
+}
+
+.eventInformation .rules .rules-read-more-area .rules-read-more {
+  display: flex;
+  align-items: center;
+  border: 1px solid #9d9d9d;
+  height: 38px;
+  padding: 0 24px;
+  border-radius: 19px;
+  grid-gap: 0 3px;
+  gap: 0 3px;
+  font-size: 14px;
+  font-weight: 500;
+  color: #4b4b4b;
+  background: #fff;
+  cursor: pointer;
+  transition: 0.3s color;
+  pointer-events: all;
+}
+
+.eventInformation .rules .rules-read-more-area .rules-read-more:hover {
+  color: #000000;
+}
+
+.eventInformation .rules .rules-read-more-area .rules-read-more .arrow {
+  color: #252427;
+}
+
+.eventInformation .rules .rules-read-more-area .rules-read-more .arrow.active {
+  transform: rotate(-180deg);
+}
+
+.tt-subtitle {
+  font-size: 36px;
+  line-height: 38px;
+  letter-spacing: -0.03em;
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+  color: #3d3b42;
+  margin: 0;
+  padding: 0 0 19px 0;
+}
+
+.oturmaPlani {
+  background-color: #fff;
+  padding: 0 20px;
+  border-radius: 20px;
+  position: relative;
+}
+
+.oturmaPlani:hover {
+  cursor: pointer;
+  background-color: #fff;
+  padding: 0 20px;
+  border-radius: 20px;
+}
+
+.ZoomPhotoIcon {
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 5;
+  padding: 10px;
+}
+
+@media only screen and (max-width: 1024px) {
+  .tt-subtitle {
+    font-size: 32px;
+    line-height: 34px;
+  }
+  .divider {
+    height: 40px;
+  }
+}
+
+@media only screen and (max-width: 790px) {
+  .tt-subtitle {
+    font-size: 28px;
+    line-height: 30px;
+  }
+  .d-md-none {
+    display: none !important;
+  }
+}
+
+@media only screen and (max-width: 575px) {
+  .divider {
+    height: 32px;
+  }
+}
