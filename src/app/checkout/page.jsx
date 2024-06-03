@@ -39,128 +39,131 @@ export default function CheckOut() {
   };
 
   return (
-    <div style={{ marginTop: 90, backgroundColor: "#f1f1f1" }}>
-      <div className="section-indent05">
-        <div className="container">
-          <div className="row">
-            <div
-              className="col-md-6"
-              style={{
-                display: "flex",
-                flexDirection: "column",
-                alignItems: "center",
-              }}
-            >
-              <h4
-                className="tt-subtitle"
-                style={{ paddingBottom: 20, fontWeight: 300 }}
+    <>
+      <div className="header-margin"></div>
+      <div style={{ marginTop: 90, backgroundColor: "#f1f1f1" }}>
+        <div className="section-indent05">
+          <div className="container">
+            <div className="row">
+              <div
+                className="col-md-6"
+                style={{
+                  display: "flex",
+                  flexDirection: "column",
+                  alignItems: "center",
+                }}
               >
-                Bilet Bilgileri
-              </h4>
-              <TicketCard />
-            </div>
-            <div
-              className="col-md-6"
-              style={{
-                display: "flex",
-                flexDirection: "column",
-                alignItems: "center",
-              }}
-            >
-              <h6
-                className="tt-subtitle"
-                style={{ paddingBottom: 20, fontWeight: 300 }}
-              >
-                Ödeme
-              </h6>
-              <div className="checkoutForm">
-                <Formik
-                  initialValues={{
-                    firstName: "",
-                    email: "",
-                    phone: "",
-                    message: "",
-                  }}
-                  validationSchema={ContactFormSchema}
-                  onSubmit={(values, actions) => {
-                    //showContactFormSuccesMessage()
-                    //actions.resetForm();
-                    //document.getElementsByName("firstName")[0].blur();
-                    router.push("/congratulation");
-                  }}
+                <h4
+                  className="tt-subtitle"
+                  style={{ paddingBottom: 20, fontWeight: 300 }}
                 >
-                  {({ errors, touched }) => (
-                    <Form
-                      id="contactform"
-                      className="form-default contact-form"
-                    >
-                      <div className="form-group">
-                        <Field
-                          name="firstName"
-                          type="text"
-                          className="form-control"
-                          id="inputName"
-                          placeholder="First name *"
-                        />
-                        {errors.firstName && touched.firstName ? (
-                          <label className="error">{errors.firstName}</label>
-                        ) : null}
-                      </div>
-                      <div className="form-group">
-                        <Field
-                          name="email"
-                          type="email"
-                          className="form-control"
-                          id="inputEmail"
-                          placeholder="Email address *"
-                        />
-                        {errors.email && touched.email ? (
-                          <label className="error">{errors.email}</label>
-                        ) : null}
-                      </div>
-                      <div className="form-group">
-                        <Field
-                          name="phone"
-                          type="text"
-                          className="form-control"
-                          id="inputReview"
-                          placeholder="Phone number"
-                        />
-                        {errors.phone && touched.phone ? (
-                          <label className="error">{errors.phone}</label>
-                        ) : null}
-                      </div>
-                      <div className="form-group">
-                        {/* <textarea className="form-control" rows="7" placeholder="Message" id="textareaMessage"></textarea> */}
-
-                        <Field
-                          name="message"
-                          type="text"
-                          as="textarea"
-                          rows={7}
-                          className="form-control"
-                          id="textareaMessage"
-                          placeholder="Message *"
-                        />
-                        {errors.message && touched.message ? (
-                          <label className="error">{errors.message}</label>
-                        ) : null}
-                      </div>
-                      <button
-                        onClick={clickContactFormButton}
-                        type="submit"
-                        className="tt-btn-default tt-btn__wide"
+                  Bilet Bilgileri
+                </h4>
+                <TicketCard />
+              </div>
+              <div
+                className="col-md-6"
+                style={{
+                  display: "flex",
+                  flexDirection: "column",
+                  alignItems: "center",
+                }}
+              >
+                <h6
+                  className="tt-subtitle"
+                  style={{ paddingBottom: 20, fontWeight: 300 }}
+                >
+                  Ödeme
+                </h6>
+                <div className="checkoutForm">
+                  <Formik
+                    initialValues={{
+                      firstName: "",
+                      email: "",
+                      phone: "",
+                      message: "",
+                    }}
+                    validationSchema={ContactFormSchema}
+                    onSubmit={(values, actions) => {
+                      //showContactFormSuccesMessage()
+                      //actions.resetForm();
+                      //document.getElementsByName("firstName")[0].blur();
+                      router.push("/congratulation");
+                    }}
+                  >
+                    {({ errors, touched }) => (
+                      <Form
+                        id="contactform"
+                        className="form-default contact-form"
                       >
-                        <span>send message</span>
-                      </button>
-                    </Form>
-                  )}
-                </Formik>
+                        <div className="form-group">
+                          <Field
+                            name="firstName"
+                            type="text"
+                            className="form-control"
+                            id="inputName"
+                            placeholder="First name *"
+                          />
+                          {errors.firstName && touched.firstName ? (
+                            <label className="error">{errors.firstName}</label>
+                          ) : null}
+                        </div>
+                        <div className="form-group">
+                          <Field
+                            name="email"
+                            type="email"
+                            className="form-control"
+                            id="inputEmail"
+                            placeholder="Email address *"
+                          />
+                          {errors.email && touched.email ? (
+                            <label className="error">{errors.email}</label>
+                          ) : null}
+                        </div>
+                        <div className="form-group">
+                          <Field
+                            name="phone"
+                            type="text"
+                            className="form-control"
+                            id="inputReview"
+                            placeholder="Phone number"
+                          />
+                          {errors.phone && touched.phone ? (
+                            <label className="error">{errors.phone}</label>
+                          ) : null}
+                        </div>
+                        <div className="form-group">
+                          {/* <textarea className="form-control" rows="7" placeholder="Message" id="textareaMessage"></textarea> */}
+
+                          <Field
+                            name="message"
+                            type="text"
+                            as="textarea"
+                            rows={7}
+                            className="form-control"
+                            id="textareaMessage"
+                            placeholder="Message *"
+                          />
+                          {errors.message && touched.message ? (
+                            <label className="error">{errors.message}</label>
+                          ) : null}
+                        </div>
+                        <button
+                          onClick={clickContactFormButton}
+                          type="submit"
+                          className="tt-btn-default tt-btn__wide"
+                        >
+                          <span>send message</span>
+                        </button>
+                      </Form>
+                    )}
+                  </Formik>
+                </div>
               </div>
             </div>
           </div>
         </div>
       </div>
-    </div>
+    </>
   );
 }
