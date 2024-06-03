@@ -187,6 +187,216 @@
   padding: 10px;
 }
 
+.checkoutForm {
+  width: 100%;
+}
+
+.checkoutForm input {
+  background-color: white;
+}
+
+.form-group {
+  margin-bottom: 1rem;
+}
+
+.form-default .form-group {
+  position: relative;
+}
+
+.form-default .form-group label.error {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-content: stretch;
+  align-items: center;
+  position: absolute;
+  top: 56px;
+  left: 0;
+  padding: 8px 12px 6px;
+  background: red;
+  color: #ffffff;
+  font-size: 14px;
+  line-height: 22px;
+  z-index: 1;
+  width: 100%;
+}
+.form-default .form-group label.error:after {
+  content: "";
+  position: absolute;
+  top: -12px;
+  left: 50%;
+  border: 6px solid transparent;
+  border-bottom: 6px solid #f8353e;
+}
+
+.form-group label.error {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-content: stretch;
+  align-items: center;
+  position: absolute;
+  top: 47px;
+  left: 0;
+  padding: 8px 12px 6px;
+  background: red;
+  color: #ffffff;
+  font-size: 14px;
+  line-height: 22px;
+  z-index: 1;
+  width: 100%;
+}
+
+.form-group label.error:after {
+  content: "";
+  position: absolute;
+  top: -12px;
+  left: 50%;
+  border: 6px solid transparent;
+  border-bottom: 6px solid #f8353e;
+}
+
+/*
+ *	TICKET, ticket
+ *	---------------------------------------------
+ */
+
+.ticket-wrap {
+  text-align: center;
+}
+
+.ticket {
+  display: inline-block;
+  margin: 0 auto;
+  border: 2px solid #252427;
+  font-family: "Variable Bahnschrift", "FF DIN", "Franklin Gothic",
+    "Helvetica Neue", sans-serif;
+  font-feature-settings: "kern" 1;
+  background: #fff;
+}
+
+.ticket__header {
+  margin: 0;
+  padding: 1.5em;
+  background: #f4f5f6;
+}
+
+.ticket__co span,
+.ticket__route span {
+  display: block;
+}
+
+.ticket__co {
+  display: inline-block;
+  position: relative;
+  padding-left: 5em;
+  line-height: 1;
+  color: #5e7186;
+}
+
+.ticket__co-icon {
+  position: absolute;
+  top: 50%;
+  margin-top: -2em;
+  left: 0;
+  width: 4em;
+  height: auto;
+}
+
+.ticket__co-name {
+  font-size: 2.5em;
+  color: #252427;
+  font-variation-settings: "wght" 500, "wdth" 75;
+  letter-spacing: -0.01em;
+}
+
+.ticket__co-subname {
+  font-variation-settings: "wght" 700;
+  color: #252427;
+}
+
+.ticket__body {
+  padding: 2rem 1.25em 1.25em;
+}
+
+.ticket__route {
+  font-variation-settings: "wght" 300;
+  font-size: 2em;
+  line-height: 1.1;
+  color: #252427;
+}
+
+.ticket__description {
+  font-variation-settings: "wght" 350;
+  font-size: 1.125em;
+  color: #506072;
+}
+
+.ticket__timing {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 1rem;
+  padding: 1rem 0;
+  border-top: 2px solid #9facbc;
+  border-bottom: 2px solid #9facbc;
+  text-align: left;
+}
+
+.ticket__timing p {
+  margin: 0 1rem 0 0;
+  padding-right: 1rem;
+  border-right: 2px solid #9facbc;
+  line-height: 1;
+}
+
+.ticket__timing p:last-child {
+  margin: 0;
+  padding: 0;
+  border-right: 0;
+}
+
+.ticket__small-label {
+  display: block;
+  margin-bottom: 0.5em;
+  font-variation-settings: "wght" 300;
+  font-size: 0.875em;
+  color: #506072;
+}
+
+.ticket__detail {
+  font-variation-settings: "wght" 700;
+  font-size: 1.25em;
+  color: #424f5e;
+}
+
+.ticket__admit {
+  margin-top: 2rem;
+  font-size: 2.5em;
+  font-variation-settings: "wght" 700, "wdth" 85;
+  line-height: 1;
+  color: #ff0000;
+}
+
+.ticket__fine-print {
+  margin-top: 1rem;
+  font-variation-settings: "wdth" 75;
+  color: #666;
+}
+
+.ticket__barcode {
+  margin-top: 1.25em;
+  width: 299px;
+  max-width: 100%;
+}
+
+/*
+ *	TICKET, ticket END
+ *	---------------------------------------------
+ */
+
 @media only screen and (max-width: 1024px) {
   .tt-subtitle {
     font-size: 32px;
