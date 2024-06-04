@@ -451,6 +451,54 @@
  *	---------------------------------------------
  */
 
+.tt-btn-default {
+  display: inline-block;
+  position: relative;
+  text-align: center;
+  padding: 2px;
+  background: linear-gradient(270deg, #ff1a43 -0.23%, #7b16d9 100%);
+  box-shadow: none;
+  border: none;
+  outline: none;
+}
+.tt-btn-default span {
+  display: inline-block;
+  letter-spacing: -0.01em;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 17px;
+  padding: 17px 21px 20px;
+  height: 52px;
+  color: #3d3b42;
+  background: #ffffff;
+  cursor: pointer;
+  font-family: "Poppins", sans-serif;
+}
+
+.tt-btn-default:before,
+.tt-btn-default:after {
+  content: "";
+  width: 18px;
+  height: 2px;
+  background-color: #ffffff;
+  position: absolute;
+  transition: all 0.8s cubic-bezier(0.19, 1, 0.22, 1) 50ms;
+}
+.tt-btn-default:before {
+  top: 0;
+  left: 35.6%;
+}
+.tt-btn-default:after {
+  bottom: 0;
+  left: 19%;
+}
+.tt-btn-default:hover:before {
+  left: 45.6%;
+}
+.tt-btn-default:hover:after {
+  left: 10%;
+}
+
 @media only screen and (max-width: 1024px) {
   .tt-subtitle {
     font-size: 32px;
@@ -458,6 +506,16 @@
   }
   .divider {
     height: 40px;
+  }
+  .tt-btn-default span {
+    min-width: 152px;
+    height: 46px;
+    font-size: 13px;
+    padding: 14px 28px 20px;
+  }
+  .tt-btn-default.tt-btn__wide span {
+    padding-left: 35px;
+    padding-right: 35px;
   }
 }
 
@@ -468,6 +526,11 @@
   }
   .d-md-none {
     display: none !important;
+  }
+  .tt-btn-default span {
+    height: 35px;
+    font-size: 13px;
+    padding: 9px 18px 12px;
   }
 }
 

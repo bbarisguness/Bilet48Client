@@ -27,12 +27,12 @@ export default function CheckOut() {
     return;
   }
 
-  const showContactFormSuccesMessage = () => {
-    contactFormSuccesMessageRef.current.classList.add("tt-active");
-    setTimeout(() => {
-      contactFormSuccesMessageRef.current.classList.remove("tt-active");
-    }, [2000]);
-  };
+  // const showContactFormSuccesMessage = () => {
+  //   contactFormSuccesMessageRef.current.classList.add("tt-active");
+  //   setTimeout(() => {
+  //     contactFormSuccesMessageRef.current.classList.remove("tt-active");
+  //   }, [2000]);
+  // };
 
   const clickContactFormButton = () => {
     document.getElementsByName("firstName")[0].focus();
@@ -44,7 +44,7 @@ export default function CheckOut() {
       <div style={{ marginTop: 90, backgroundColor: "#f1f1f1" }}>
         <div className="section-indent05">
           <div className="container">
-            <div className="row">
+            <div className="row pb-60 pt-60">
               <div
                 className="col-md-6"
                 style={{
