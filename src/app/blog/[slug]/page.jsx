@@ -1,10 +1,10 @@
 import CallToActions from "@/components/common/CallToActions";
-import LocationTopBar from "@/components/common/LocationTopBar";
 import RelatedBlog from "@/components/blog/blog-details/RelatedBlog";
 import DetailsContent from "@/components/blog/blog-details/DetailsContent";
 import BlogNavigator from "@/components/blog/blog-details/BlogNavigator";
 import blogs from "@/data/blogs";
 import NotFound from "@/components/common/NotFound";
+import TopBreadCrumb from "@/components/rental-single/TopBreadCrumb";
 
 export async function generateMetadata({ params }) {
   const blog = blogs.find((item) => item?.slug == params?.slug);
@@ -53,8 +53,8 @@ const Page = ({ params }) => {
       <>
         <div className="header-margin"></div>
         {/* header top margin */}
-        <LocationTopBar />
-        {/* End location top bar section */}
+
+        <TopBreadCrumb submenu="Blog" title={blog.title} />
 
         <section className="layout-pt-md layout-pb-md">
           <div className="container">

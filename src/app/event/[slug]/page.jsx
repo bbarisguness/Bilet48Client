@@ -36,7 +36,7 @@ export default function Page({ params }) {
     return (
       <>
         <div className="header-margin"></div>
-        <TopBreadCrumb />
+        <TopBreadCrumb submenu="Event" title={rental.title} />
 
         <section className="pt-40">
           <div className="container">
