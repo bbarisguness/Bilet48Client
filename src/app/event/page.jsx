@@ -1,4 +1,5 @@
 import AddBanner from "@/components/home/AddBanner";
+import BlogPagination from "@/components/blog/BlogPagination";
 
 export const metadata = {
   title: "Events | Bilet 48",
@@ -23,6 +24,7 @@ export default function Page() {
         <div className="row y-gap-20 pt-40">
           <AddBanner />
         </div>
+        <BlogPagination />
         {/* End .row */}
       </div>
       {/* End container */}
