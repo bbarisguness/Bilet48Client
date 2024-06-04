@@ -14,7 +14,7 @@ const AddBanner = () => {
         </>
       ),
       meta: "",
-      routerPath: "/luxury-new-apartment-with-private-garden",
+      routerPath: "event//luxury-new-apartment-with-private-garden",
       delayAnimation: "100",
     },
     {
@@ -28,7 +28,7 @@ const AddBanner = () => {
         </>
       ),
       meta: "",
-      routerPath: "/luxury-new-apartment-with-private-garden",
+      routerPath: "event//luxury-new-apartment-with-private-garden",
       delayAnimation: "200",
     },
     {
@@ -36,7 +36,7 @@ const AddBanner = () => {
       img: "/img/backgrounds/2.webp",
       title: "Up to 70% Discount!",
       meta: "Enjoy Summer Deals",
-      routerPath: "/luxury-new-apartment-with-private-garden",
+      routerPath: "event//luxury-new-apartment-with-private-garden",
       delayAnimation: "300",
     },
   ];
