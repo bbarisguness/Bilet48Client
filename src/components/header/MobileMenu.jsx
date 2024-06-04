@@ -142,18 +142,22 @@ const MobileMenu = () => {
             Home
           </MenuItem>
 
-          <MenuItem
+          {/* <MenuItem
             data-bs-dismiss="offcanvas"
             onClick={() => router.push("/destinations")}
             className={pathname === "/destinations" ? "menu-active-link" : ""}
           >
             Desitinations
-          </MenuItem>
+          </MenuItem> */}
 
           <MenuItem
             data-bs-dismiss="offcanvas"
             onClick={() => router.push("/blog")}
-            className={pathname === "/blog" ? "menu-active-link" : ""}
+            className={
+              pathname === "/blog" || pathname.includes("/blog")
+                ? "menu-active-link"
+                : ""
+            }
           >
             Blog
           </MenuItem>

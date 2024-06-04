@@ -25,7 +25,7 @@ const MainMenu = ({ style = "" }) => {
       <ul className={`menu__nav ${style} -is-active`}>
         <li
           className={`${
-            isActiveParentChaild(homeItems, pathname) ? "current" : ""
+            isActiveLink("/", pathname) ? "current" : ""
           } menu-item-has-children`}
         >
           <Link href="/">
