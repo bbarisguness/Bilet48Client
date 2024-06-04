@@ -54,6 +54,21 @@ export const blogItems = [
   //   routePath: "/blog-details/1",
   // },
 ];
+
+export const eventItems = [
+  {
+    name: "Event List",
+    routePath: "/event",
+  }
+  // {
+  //   name: "Blog List V2",
+  //   routePath: "/blog-list-v2",
+  // },
+  // {
+  //   name: "Blog Single",
+  //   routePath: "/blog-details/1",
+  // },
+];
 export const pageItems = [
   {
     name: "404",

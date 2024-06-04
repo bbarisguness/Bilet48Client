@@ -5,6 +5,7 @@ import {
   blogItems,
   pageItems,
   dashboardItems,
+  eventItems,
 } from "../../data/mainMenuData";
 import {
   isActiveParent,
@@ -45,6 +46,16 @@ const MainMenu = ({ style = "" }) => {
           </ul> */}
         </li>
         {/* End home page menu */}
+
+        <li
+          className={`${
+            isActiveParentChaild(eventItems, pathname) ? "current" : ""
+          } menu-item-has-children`}
+        >
+          <Link href="/event">
+            <span className="mr-10">Event</span>
+          </Link>
+        </li>
 
         {/* <li
           className={
