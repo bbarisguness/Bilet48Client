@@ -11,7 +11,7 @@ export async function generateMetadata({ params, searchParams }, parent) {
 export default function Home({ params, searchParams }) {
   return (
     <>
-      <Hero6 />
+      {/* <Hero6 /> */}
       <section className="layout-pt-lg layout-pb-md">
         <div className="container">
           <div className="row justify-center text-center">
@@ -24,13 +24,10 @@ export default function Home({ params, searchParams }) {
               </div>
             </div>
           </div>
-          {/* End .row */}
           <div className="row y-gap-20 pt-40">
             <AddBanner />
           </div>
-          {/* End .row */}
         </div>
-        {/* End container */}
       </section>
     </>
   );

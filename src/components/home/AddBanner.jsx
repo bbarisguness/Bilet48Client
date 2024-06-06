@@ -39,6 +39,43 @@ const AddBanner = () => {
       routerPath: "event//luxury-new-apartment-with-private-garden",
       delayAnimation: "300",
     },
+    
+    {
+      id: 4,
+      img: "/img/backgrounds/2.webp",
+      title: "Up to 70% Discount!",
+      meta: "Enjoy Summer Deals",
+      routerPath: "event//luxury-new-apartment-with-private-garden",
+      delayAnimation: "300",
+    },
+    {
+      id: 5,
+      img: "/img/backgrounds/1.webp",
+      title: (
+        <>
+          {" "}
+          Things To Do On
+          <br /> Your Trip
+        </>
+      ),
+      meta: "",
+      routerPath: "event//luxury-new-apartment-with-private-garden",
+      delayAnimation: "100",
+    },
+    {
+      id: 6,
+      img: "/img/backgrounds/3.webp",
+      title: (
+        <>
+          Let Your Curiosity
+          <br />
+          Do The Booking
+        </>
+      ),
+      meta: "",
+      routerPath: "event//luxury-new-apartment-with-private-garden",
+      delayAnimation: "200",
+    },
   ];
 
   return (
