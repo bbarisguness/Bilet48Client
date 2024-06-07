@@ -551,6 +551,10 @@
   background-color: #f1f1f1;
 }
 
+.typography a {
+  color: #13357b;
+}
+
 .typography p {
   font-size: 18px;
   line-height: 34px;
