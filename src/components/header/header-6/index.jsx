@@ -9,15 +9,26 @@ const Header6 = () => {
   const [navbar, setNavbar] = useState(false);
 
   const activeHeaderTheme = 1;
+  const logoText = (
+    <span
+      style={{
+        fontSize: 20,
+        color: navbar && activeHeaderTheme == 0 ? "white" : "#13357b",
+        fontWeight: "bold",
+      }}
+    >
+      Bilet 48
+    </span>
+  );
   const navbarThemes = [
     {
-      logo: "/img/general/logo-light.svg",
+      logo: "/img/general/logo-dark-3-without-text.png",
       headerBackgroundColor: "",
       headerItemsColor: "text-dark",
       becomeButton: "bg-dark-4 text-white",
       signButton: "border-dark-4 text-dark-4",
       isSticky: {
-        logo: "/img/general/logo-dark-3.svg",
+        logo: "/img/general/logo-light-without-text.png",
         headerBackgroundColor: "bg-dark-4 is-sticky",
         headerItemsColor: "text-white",
         becomeButton: "bg-white",
@@ -25,13 +36,13 @@ const Header6 = () => {
       },
     },
     {
-      logo: "/img/general/logo-dark-3.svg",
+      logo: "/img/general/logo-dark-3-without-text.png",
       headerBackgroundColor: "",
       headerItemsColor: "text-dark",
       becomeButton: "bg-dark-4 text-white",
       signButton: "border-dark-4 text-dark-4",
       isSticky: {
-        logo: "/img/general/logo-dark-3.svg",
+        logo: "/img/general/logo-dark-3-without-text.png",
         headerBackgroundColor: "bg-white is-sticky",
         headerItemsColor: "text-dark",
         becomeButton: "bg-dark-4 text-white",
@@ -69,17 +80,31 @@ const Header6 = () => {
           <div className="row justify-between items-center">
             <div className="col-auto">
               <div className="d-flex items-center">
-                <Link href="/" className="header-logo mr-20">
+                <Link
+                  href="/"
+                  className="header-logo mr-20"
+                  style={{ display: "flex", alignItems: "center" }}
+                >
                   {navbar ? (
-                    <img
-                      src={navbarThemes[activeHeaderTheme].logo}
-                      alt="logo icon"
-                    />
+                    <>
+                      <img
+                        src={navbarThemes[activeHeaderTheme].isSticky.logo}
+                        alt="logo icon"
+                        className="mr-20"
+                        style={{ width: "auto" }}
+                      />
+                      {logoText}
+                    </>
                   ) : (
-                    <img
-                      src={navbarThemes[activeHeaderTheme].isSticky.logo}
-                      alt="logo icon"
-                    />
+                    <>
+                      <img
+                        src={navbarThemes[activeHeaderTheme].logo}
+                        alt="logo icon"
+                        className="mr-20"
+                        style={{ width: "auto" }}
+                      />
+                      {logoText}
+                    </>
                   )}
                 </Link>
                 {/* End logo */}

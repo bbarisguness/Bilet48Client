@@ -12,7 +12,8 @@ export default function Home({ params, searchParams }) {
   return (
     <>
       {/* <Hero6 /> */}
-      <section className="layout-pt-lg layout-pb-md">
+      <div className="header-margin"></div>
+      <section className="pt-30 layout-pb-md">
         <div className="container">
           <div className="row justify-center text-center">
             <div className="col-auto">
