@@ -32,13 +32,13 @@ export default function Page() {
                 </p>
                 <p>
                   <span lang="TR">
-                    Bubilet, Bubilet&nbsp; ve "www.bubilet.com.tr" adlı internet
-                    sitesini,
+                    Bilet 48, Bilet 48&nbsp; ve "www.Bilet 48.com.tr" adlı
+                    internet sitesini,
                   </span>
                 </p>
                 <p>
                   <span lang="TR">
-                    SİTE, "www.bubilet.com.tr" adlı alan adında bulunan web
+                    SİTE, "www.Bilet 48.com.tr" adlı alan adında bulunan web
                     sitesini,
                   </span>
                 </p>
@@ -65,9 +65,9 @@ export default function Page() {
                 </p>
                 <p>
                   <span lang="TR">
-                    İŞLETME ve Bubilet birbirinden bağımsız ve ayrı tüzel/gerçek
-                    kişilerdir. Bubilet, KULLANICI ile İŞLETME'yi biraraya
-                    getiren bir platform olup; Bubilet hiçbir surette
+                    İŞLETME ve Bilet 48 birbirinden bağımsız ve ayrı
+                    tüzel/gerçek kişilerdir. Bilet 48, KULLANICI ile İŞLETME'yi
+                    biraraya getiren bir platform olup; Bilet 48 hiçbir surette
                     Hizmetler'in Sağlayıcısı/sunucusu/ifa edicisi ve/veya
                     İŞLETME'nin acentesi, bayii, vekili, temsilcisi vb. olarak
                     addedilemez.
@@ -79,13 +79,13 @@ export default function Page() {
                 <p>
                   <span lang="TR">
                     İŞLETME, KULLANICI'ya HİZMET'i sağlamakla tek mükellef ve
-                    HİZMET'in satıcısı ile sağlayıcısıdır. Diğer taraftan
-                    Bubilet yalnızca KULLANICI'ya ve İŞLETME'ye aracılık eder ve
+                    HİZMET'in satıcısı ile sağlayıcısıdır. Diğer taraftan Bilet
+                    48 yalnızca KULLANICI'ya ve İŞLETME'ye aracılık eder ve
                     KULLANICI ile İŞLETME'nin tarafı olduğu temel hizmet satış
                     ilişkisinin tarafı değildir. Hizmetin satıcısı tarafından
-                    sağlanacak/sunulacak/ifa edilecek hizmetler Bubilet'in
+                    sağlanacak/sunulacak/ifa edilecek hizmetler Bilet 48'in
                     taahhüt ve garantisi altında değildir. Yukarıda da ifade
-                    edildiği üzere, Bubilet’in rolü İŞLETME ve KULLANIYI'yı
+                    edildiği üzere, Bilet 48’in rolü İŞLETME ve KULLANIYI'yı
                     buluşturan platform olarak yorumlanmalıdır. Dolayısıyla her
                     bir HİZMET özelinde İŞLETME yani satıcı/sağlayıcı bilgileri
                     değişiklik göstermektedir.
@@ -213,13 +213,13 @@ export default function Page() {
                 </p>
                 <p>
                   <span lang="TR">
-                    Bubilet, SİTE'de ilan edilir edilmez yürürlüğe girmek üzere,
-                    herhangi bir zamanda bu koşullarda değişiklik yapma hakkını
-                    saklı tutar. KULLANICI'nın, Bubilet bu koşullarda değişiklik
-                    yaptıktan sonra SİTE'yi üye olarak kullanmaya devam etmesi
-                    ve/veya SİTE aracılığı ile İŞLETME tarafından ilan ve teklif
-                    edilen satışlara katılması bu koşullardaki değişiklikleri
-                    kabul etmiş olduğu anlamına gelecektir.
+                    Bilet 48, SİTE'de ilan edilir edilmez yürürlüğe girmek
+                    üzere, herhangi bir zamanda bu koşullarda değişiklik yapma
+                    hakkını saklı tutar. KULLANICI'nın, Bilet 48 bu koşullarda
+                    değişiklik yaptıktan sonra SİTE'yi üye olarak kullanmaya
+                    devam etmesi ve/veya SİTE aracılığı ile İŞLETME tarafından
+                    ilan ve teklif edilen satışlara katılması bu koşullardaki
+                    değişiklikleri kabul etmiş olduğu anlamına gelecektir.
                   </span>
                 </p>
                 <p>
@@ -229,7 +229,7 @@ export default function Page() {
                   <span lang="TR">
                     KULLANICI, bu Kullanım – Ön Bilgilendirme Koşulları ile
                     kabul ve taahhüt ettiği yükümlülüklerini ihlâl ettiği
-                    takdirde, Bubilet tarafından üyeliğinin iptal edilerek
+                    takdirde, Bilet 48 tarafından üyeliğinin iptal edilerek
                     SİTE'yi kullanımına son verilebileceğini, gelecekte SİTE'yi
                     kullanmasına engel olunabileceğini, ve/veya aleyhine hukuki
                     dava veya takip yoluna gidebileceğini kabul eder.
@@ -237,14 +237,14 @@ export default function Page() {
                 </p>
                 <p>
                   <span lang="TR">
-                    Bubilet bu Kullanım – Ön Bilgilendirme Koşulları'nın ihlal
+                    Bilet 48 bu Kullanım – Ön Bilgilendirme Koşulları'nın ihlal
                     edildiğini tespit ettiği durumlarda KULLANICI'nın hesabını
                     herhangi bir sebep ya da kanıt göstermeksizin iptal
                     edebilir. Bu durumda KULLANICI'nın SİTE aracılığı ile elde
                     etmiş olduğu tüm haklar da iptal edilmiş sayılacaktır.
-                    KULLANICI, bu şekilde iptal edilen haklarına ilişkin
-                    Bubilet'ten herhangi bir tazminat ya da geri ödeme talep
-                    etme hakkı bulunmadığını kabul, beyan ve taahhüt eder.
+                    KULLANICI, bu şekilde iptal edilen haklarına ilişkin Bilet
+                    48'ten herhangi bir tazminat ya da geri ödeme talep etme
+                    hakkı bulunmadığını kabul, beyan ve taahhüt eder.
                   </span>
                 </p>
                 <p>
@@ -263,13 +263,13 @@ export default function Page() {
                 </p>
                 <p>
                   <span lang="TR">
-                    Bubilet, SİTE'de yer alan üyeliğe ilişkin KULLANICI kimlik
+                    Bilet 48, SİTE'de yer alan üyeliğe ilişkin KULLANICI kimlik
                     ve şahıs bilgilerini, KULLANICI güvenliği ve kendi
                     yükümlülüğünü ifa etmesi sırasında veya bazı istatistiki
                     değerlendirmeler için dilediği biçimde kullanabilir.
-                    KULLANICI, bu bilgilerin Bubilet tarafından anılan amaçlarla
-                    kullanımına muvafakat eder. Bunları bir veritabanı üzerinde
-                    tasnif ve muhafaza edebilir.
+                    KULLANICI, bu bilgilerin Bilet 48 tarafından anılan
+                    amaçlarla kullanımına muvafakat eder. Bunları bir veritabanı
+                    üzerinde tasnif ve muhafaza edebilir.
                   </span>
                 </p>
                 <p>
@@ -277,18 +277,19 @@ export default function Page() {
                 </p>
                 <p>
                   <span lang="TR">
-                    KULLANICI, Bubilet aracılığı ile İŞLETME tarafından sunulan,
-                    ifa edilecek olan ve sağlanan hizmetlerden yararlanabilmek
-                    amacıyla kullandığı sisteme erişim araçlarının (kullanıcı
-                    ismi, şifre v.b.) güvenliği, saklanması, üçüncü kişilerin
-                    bilgisinden uzak tutulması ve izinsiz kullanılmasıyla ilgili
-                    hususların tamamen kendi sorumluluğunda olduğunu kabul eder.
-                    KULLANICI'nın sisteme giriş araçlarının güvenliği,
-                    saklanması, üçüncü kişilerin bilgisinden uzak tutulması,
-                    kullanılması gibi hususlardaki tüm ihmal ve kusurlarından
-                    dolayı KULLANICI'nın ve/veya üçüncü kişilerin uğradığı veya
-                    uğrayabileceği zararlar dolayısıyla Bubilet’in, doğrudan
-                    veya dolaylı, herhangi bir sorumluluğu yoktur.
+                    KULLANICI, Bilet 48 aracılığı ile İŞLETME tarafından
+                    sunulan, ifa edilecek olan ve sağlanan hizmetlerden
+                    yararlanabilmek amacıyla kullandığı sisteme erişim
+                    araçlarının (kullanıcı ismi, şifre v.b.) güvenliği,
+                    saklanması, üçüncü kişilerin bilgisinden uzak tutulması ve
+                    izinsiz kullanılmasıyla ilgili hususların tamamen kendi
+                    sorumluluğunda olduğunu kabul eder. KULLANICI'nın sisteme
+                    giriş araçlarının güvenliği, saklanması, üçüncü kişilerin
+                    bilgisinden uzak tutulması, kullanılması gibi hususlardaki
+                    tüm ihmal ve kusurlarından dolayı KULLANICI'nın ve/veya
+                    üçüncü kişilerin uğradığı veya uğrayabileceği zararlar
+                    dolayısıyla Bilet 48’in, doğrudan veya dolaylı, herhangi bir
+                    sorumluluğu yoktur.
                   </span>
                 </p>
                 <p>
@@ -296,7 +297,7 @@ export default function Page() {
                 </p>
                 <p>
                   <span lang="TR">
-                    KULLANICI, Bubilet tarafından kendisine bu konuda özel ve
+                    KULLANICI, Bilet 48 tarafından kendisine bu konuda özel ve
                     yazılı olarak yetki verilmedikçe, bu SİTE'de yayınlanan
                     bilgi ve içeriği, etkinlikleri izlemek ve tanıtıcı bilgileri
                     almak, ve başka kişisel kullanım amaçları dışında herhangi
@@ -310,10 +311,10 @@ export default function Page() {
                 </p>
                 <p>
                   <span lang="TR">
-                    KULLANICI, Bubilet tarafından kendisine bu konuda özel ve
+                    KULLANICI, Bilet 48 tarafından kendisine bu konuda özel ve
                     yazılı olarak yetki verilmedikçe, SİTE'ye derin
                     bağlanmayacağını kabul ve taahhüt etmektedir. Bu SİTE'nin
-                    içeriği ve yazılımı, Bubilet'e aittir ve telif hakkı
+                    içeriği ve yazılımı, Bilet 48'e aittir ve telif hakkı
                     korunmaktadır. SİTE sayfalarına kanuni telif hakkı uyarısı
                     ve çeşitli tanıtma yazıları konulmuştur. Bu uyarı ve
                     yazıların silinmesi veya kaldırılması yasaktır. KULLANICI,
@@ -329,7 +330,7 @@ export default function Page() {
                   <span lang="TR">
                     KULLANICI, SİTE'yi veya içindekileri izlemek veya kopyalamak
                     amacıyla ya da izin ve yetki verilmeyen başka amaçlarla ve
-                    önceden Bubilet’in açık ve yazılı iznini almadan herhangi
+                    önceden Bilet 48’in açık ve yazılı iznini almadan herhangi
                     bir robot, örümcek veya başka otomatik aletler ya da manuel
                     prosesler kullanmayacağını kabul ve taahhüt eder. KULLANICI,
                     SİTE'nin çalışmasına müdahale etmek veya müdahaleye teşebbüs
@@ -342,7 +343,7 @@ export default function Page() {
                 </p>
                 <p>
                   <span lang="TR">
-                    KULLANICI, Bubilet’in altyapısı üzerine makul olmayan veya
+                    KULLANICI, Bilet 48’in altyapısı üzerine makul olmayan veya
                     orantısız büyüklükte yük getiren herhangi bir işlem
                     yapmayacağını da kabul ve taahhüt etmektedir.&nbsp;
                   </span>
@@ -352,7 +353,7 @@ export default function Page() {
                 </p>
                 <p>
                   <span lang="TR">
-                    KULLANICI, Bubilet’in açık ve yazılı iznini almadan,
+                    KULLANICI, Bilet 48’in açık ve yazılı iznini almadan,
                     SİTE'nin içeriğini kopyalamayacağını, çoğaltmayacağını,
                     değiştirmeyeceğini, bu içerikten türev eserler
                     yaratmayacağını ya da bunları kamuya teşhir etmeyeceğini
@@ -395,7 +396,7 @@ export default function Page() {
                     mahkeme kararıyla veya ilgili KULLANICI'nın ikrarıyla sabit
                     olması halinde, ihlâlde bulunan KULLANICI'nın bu SİTE'ye
                     erişim ve/veya SİTE'yi kullanım hakları iptal edilecektir.
-                    Bubilet’in ileri sürülen tecavüzü veya hak ihlâlinin
+                    Bilet 48’in ileri sürülen tecavüzü veya hak ihlâlinin
                     gerçekten yapıldığına inanması halinde, kendi mutlak
                     takdirine göre, o KULLANICI'nın bu SİTE'ye erişim veya
                     SİTE'yi kullanım haklarını böyle bir bildirim, mahkeme
@@ -420,17 +421,17 @@ export default function Page() {
                 </p>
                 <p>
                   <span lang="TR">
-                    Bubilet, SİTE'nin kesintisiz veya hatasız olacağını ya da
+                    Bilet 48, SİTE'nin kesintisiz veya hatasız olacağını ya da
                     SİTE'nin veya içeriğinin kullanılmasıyla ya da SİTE'ye
                     bağlantı yapılmasıyla belirli sonuçların elde edileceğini
                     garanti etmez. SİTE ve içeriği "olduğu gibi" ve "mevcut
-                    haliyle" esasında sunulmaktadır. Bubilet, KULLANICI'nın
+                    haliyle" esasında sunulmaktadır. Bilet 48, KULLANICI'nın
                     SİTE'den yüklediği dosyalarda virüs ya da kirletici veya
-                    bozucu özellikler bulunmadığını da garanti edemez. Bubilet,
+                    bozucu özellikler bulunmadığını da garanti edemez. Bilet 48,
                     SİTE'nin belirli bir amaca uygunluğu ve ticari değerine
                     ilişkin garantiler de dahil her türlü başka aleni veya zımni
-                    garantiyi reddeder. Bubilet, bunlarla sınırlı kalmaksızın ve
-                    fakat, doğrudan, dolaylı veya arızi zararlar, netice
+                    garantiyi reddeder. Bilet 48, bunlarla sınırlı kalmaksızın
+                    ve fakat, doğrudan, dolaylı veya arızi zararlar, netice
                     kabilinden doğan zararlar ve cezai tazminatlar da dahil
                     olmak üzere, bu SİTE'nin kullanılmasından kaynaklanabilecek
                     zararlar için sorumlu tutulamaz.
@@ -441,20 +442,20 @@ export default function Page() {
                 </p>
                 <p>
                   <span lang="TR">
-                    Bubilet, SİTE üzerinde, Bubilet’in kendi kontrolünde olmayan
-                    üçüncü kişi İŞLETME'nin sahip olduğu ve işlettiği başka web
-                    SİTE'lerine ve/veya portallara, dosyalara veya içeriklere
-                    'link' verebilir. Bu 'link'ler, Bubilet tarafından,
-                    sahibinden izin alınmak suretiyle referans kolaylığı
-                    nedeniyle sağlanmış olabilir ve web SİTE'sini veya SİTE'yi
-                    işleten kişiyi desteklemek amacı veya web SİTE'si veya
-                    içerdiği bilgilere yönelik herhangi bir türde bir beyan veya
-                    garanti niteliği taşımamaktadır. SİTE üzerindeki 'link'ler
-                    vasıtasıyla erişilen portallar, web SİTE' leri, dosyalar ve
-                    içerikler, bu 'link'ler vasıtasıyla erişilen portallar veya
-                    web SİTElerinden sunulan hizmetler veya ürünler veya
-                    bunların içeriği hakkında Bubilet’in herhangi bir
-                    sorumluluğu yoktur.
+                    Bilet 48, SİTE üzerinde, Bilet 48’in kendi kontrolünde
+                    olmayan üçüncü kişi İŞLETME'nin sahip olduğu ve işlettiği
+                    başka web SİTE'lerine ve/veya portallara, dosyalara veya
+                    içeriklere 'link' verebilir. Bu 'link'ler, Bilet 48
+                    tarafından, sahibinden izin alınmak suretiyle referans
+                    kolaylığı nedeniyle sağlanmış olabilir ve web SİTE'sini veya
+                    SİTE'yi işleten kişiyi desteklemek amacı veya web SİTE'si
+                    veya içerdiği bilgilere yönelik herhangi bir türde bir beyan
+                    veya garanti niteliği taşımamaktadır. SİTE üzerindeki
+                    'link'ler vasıtasıyla erişilen portallar, web SİTE' leri,
+                    dosyalar ve içerikler, bu 'link'ler vasıtasıyla erişilen
+                    portallar veya web SİTElerinden sunulan hizmetler veya
+                    ürünler veya bunların içeriği hakkında Bilet 48’in herhangi
+                    bir sorumluluğu yoktur.
                   </span>
                 </p>
                 <p>
@@ -462,9 +463,9 @@ export default function Page() {
                 </p>
                 <p>
                   <span lang="TR">
-                    Bubilet, SİTE'nin kullanılmasından ya da Bubilet hizmetinin
-                    kullanılmasından beklenebilecek sonuçlar konusunda hiçbir
-                    garanti vermez.
+                    Bilet 48, SİTE'nin kullanılmasından ya da Bilet 48
+                    hizmetinin kullanılmasından beklenebilecek sonuçlar
+                    konusunda hiçbir garanti vermez.
                   </span>
                 </p>
                 <p>
@@ -472,12 +473,12 @@ export default function Page() {
                 </p>
                 <p>
                   <span lang="TR">
-                    Bubilet; SİTE'nin üçüncü şahıs KULLANICI'ları, Bubilet
-                    KULLANICI'ları, reklamcıları ve/veya sponsorlarının Bubilet
-                    hizmetiyle ilgili ve Bubilet aracılığı ile kullanılan
-                    hizmetlerle ilgili ya da KULLANICI'nın SİTE'yi ve/veya
-                    Bubilet hizmetini kullanmasıyla ilgili fiil, ihmal ve
-                    davranışları için her türlü sorumluluğu reddeder. Bubilet,
+                    Bilet 48; SİTE'nin üçüncü şahıs KULLANICI'ları, Bilet 48
+                    KULLANICI'ları, reklamcıları ve/veya sponsorlarının Bilet 48
+                    hizmetiyle ilgili ve Bilet 48 aracılığı ile kullanılan
+                    hizmetlerle ilgili ya da KULLANICI'nın SİTE'yi ve/veya Bilet
+                    48 hizmetini kullanmasıyla ilgili fiil, ihmal ve
+                    davranışları için her türlü sorumluluğu reddeder. Bilet 48,
                     herhangi bir etkinliği organize eden kişiler, icracılar,
                     kurumlar veya başka üçüncü şahısların SİTE'yle bağlantılı
                     veya SİTE'ye atıfta bulunan ürünleri, hizmetleri, fiil veya
@@ -490,16 +491,16 @@ export default function Page() {
                 <p>
                   <span lang="TR">
                     Bu sorumluluk sınırlamalarına izin verilmeyen ülkeler hariç,
-                    Bubilet, bu tip zararların olabileceği kendisine önceden
+                    Bilet 48, bu tip zararların olabileceği kendisine önceden
                     bildirilmiş olsa bile, kâr kaybı da dahil dolaylı, arızi ve
                     özel zararlar veya netice kabilinden doğan zararlar veya
                     cezai tazminatlar için KULLANICI'ya karşı hiçbir durumda
-                    sorumlu tutulamaz. İş bu koşulların Bubilet’in sorumluluğunu
-                    sınırlayan hükümlerinden birinin ilgili mahkeme tarafından
-                    ilgili mevzuata aykırı bulunması halinde söz konusu hüküm
-                    mevzuata uygun olan ve sorumluluğu en fazla sınırlayan hali
-                    ile geçerli sayılacak ve Bubilet’in sorumluluğu buna göre
-                    belirlenecektir.
+                    sorumlu tutulamaz. İş bu koşulların Bilet 48’in
+                    sorumluluğunu sınırlayan hükümlerinden birinin ilgili
+                    mahkeme tarafından ilgili mevzuata aykırı bulunması halinde
+                    söz konusu hüküm mevzuata uygun olan ve sorumluluğu en fazla
+                    sınırlayan hali ile geçerli sayılacak ve Bilet 48’in
+                    sorumluluğu buna göre belirlenecektir.
                   </span>
                 </p>
                 <p>
@@ -535,7 +536,7 @@ export default function Page() {
                 </p>
                 <p>
                   <span lang="TR">
-                    Bubiletin kullancılarına verdiği hizmet, SİTE aracılığı ile
+                    Bilet 48in kullancılarına verdiği hizmet, SİTE aracılığı ile
                     İŞLETME tarafından satışa sunulan hizmetlerin KULLANICI'lar
                     tarafından satın alınması ve SİTE'de ilan edilen koşul ve
                     şartlarla kullanılması ile sınırlıdır.{" "}
@@ -551,25 +552,25 @@ export default function Page() {
                     değiştirilene kadar geçerlidir. Kampanyalı olarak belirtilen
                     fiyatlar kampanyanın sona ereceği tarihe kadar ya da
                     kampanyalı olarak satışa çıkan bilet adedi tükenene kadar
-                    geçerlidir.&nbsp; Bubilet, Kullanıcı’dan bilet başına hizmet
-                    bedeli alır. Kullanıcı’nın kendi isteği ile iade
-                    taleplerinde işbu hizmet bedeli iade edilmez. Bubilet’in
+                    geçerlidir.&nbsp; Bilet 48, Kullanıcı’dan bilet başına
+                    hizmet bedeli alır. Kullanıcı’nın kendi isteği ile iade
+                    taleplerinde işbu hizmet bedeli iade edilmez. Bilet 48’in
                     Kullanıcı’dan aldığı hizmet bedeli herhangi bir garanti
                     oluşturmamakta, bilet/hizmet ile ilgili tek sorumlu
-                    etkinliği/hizmeti düzenleyen İŞLETME’dir. Bubilet’in
+                    etkinliği/hizmeti düzenleyen İŞLETME’dir. Bilet 48’in
                     etkinliğin/hizmetin kapsamı bilet adedi, fiyatı, oturma
                     düzeni, Etkinlik Kuralları vs. ilan edilen etkinlik koşul
                     şart veya bedeli konularında hak ve yetkisi bulunmamaktadır.
-                    KULLANICI, Bubilet’in hizmeti sunan kişi olmayıp, yalnızca
+                    KULLANICI, Bilet 48’in hizmeti sunan kişi olmayıp, yalnızca
                     İŞLETME ile KULLANICI arasında aracılık yapmakta olduğunu
-                    kabul etmektedir. Bubilet, KULLANICI tarafından KULLANICI'ya
-                    sunulan ve/veya sağlanan hizmetin kusurlu ya da ayıplı
-                    olması ve/veya belirlenen süre içerisinde
+                    kabul etmektedir. Bilet 48, KULLANICI tarafından
+                    KULLANICI'ya sunulan ve/veya sağlanan hizmetin kusurlu ya da
+                    ayıplı olması ve/veya belirlenen süre içerisinde
                     sunul(a)maması/sağlan(a)maması gibi etkinlik/hizmetin
                     içerik, koşul, şartları, mekanı, bedeli vs. dolayısıyla
                     sorumlu değildir. KULLANICI, bu türlü talepleri yalnızca
-                    İŞLETME’ye karşı ileri süreceğini, Bubilet’in bu yönde bir
-                    garantisi veya taahhüdü bulunmadığını, Bubilet'e karşı her
+                    İŞLETME’ye karşı ileri süreceğini, Bilet 48’in bu yönde bir
+                    garantisi veya taahhüdü bulunmadığını, Bilet 48'e karşı her
                     hangi bir talepte bulunmayacağını kabul ve taahhüt eder.
                   </span>
                 </p>
@@ -583,16 +584,15 @@ export default function Page() {
                 </p>
                 <p>
                   <span lang="TR">
-                    Hizmet satın alınması işleminin gerçekleşmesi, bedelin
-                    Bubilet’in hesabına geçmesi ile birlikte satın alınan
-                    hizmete ilişkin bilet, dijital ortamda düzenlenerek
-                    KULLANICI’nın elektronik posta adresi ve/veya telefon
-                    numarasına SMS yolu ile gönderilir. KULLANICI etkinliğin
-                    gerçekleşeceği zaman ve mekanda QR kodlu biletini
-                    okutarak/göstererek hizmetten yararlanabilir. Herhangi bir
-                    nedenle hizmet bedeli ödenmez ve/veya banka kayıtlarında
-                    iptal edilirse, Bubilet’in herhangi bir yükümlülüğü
-                    kalmayacaktır.
+                    Hizmet satın alınması işleminin gerçekleşmesi, bedelin Bilet
+                    48’in hesabına geçmesi ile birlikte satın alınan hizmete
+                    ilişkin bilet, dijital ortamda düzenlenerek KULLANICI’nın
+                    elektronik posta adresi ve/veya telefon numarasına SMS yolu
+                    ile gönderilir. KULLANICI etkinliğin gerçekleşeceği zaman ve
+                    mekanda QR kodlu biletini okutarak/göstererek hizmetten
+                    yararlanabilir. Herhangi bir nedenle hizmet bedeli ödenmez
+                    ve/veya banka kayıtlarında iptal edilirse, Bilet 48’in
+                    herhangi bir yükümlülüğü kalmayacaktır.
                   </span>
                 </p>
                 <p>
@@ -609,7 +609,7 @@ export default function Page() {
                     fırsat detaylarında belirtilmiştir. Bu sürelerin aşılması
                     durumunda yaptırılan rezervasyon ve randevulara ilişkin
                     fırsat kodları KULLANICI tarafından hizmete dönüştürülmüş
-                    sayılacaktır. Bu durumda Bubilet’in KULLANICI'ya herhangi
+                    sayılacaktır. Bu durumda Bilet 48’in KULLANICI'ya herhangi
                     bir geri ödeme yükümlülüğü bulunmamaktadır.
                   </span>
                 </p>
@@ -622,14 +622,14 @@ export default function Page() {
                     müzik toplulukları, yeme içme mekanları, spor merkezleri,
                     tatil yerleri, kişisel gelişim kursları bu etkinlikleri
                     muhtelif sebeplerle iptal edebilir veya erteleyebilirler. Bu
-                    gibi hallerde, eğer ilgili hizmete ilişkin bedel Bubilet
+                    gibi hallerde, eğer ilgili hizmete ilişkin bedel Bilet 48
                     tarafından İŞLETME'ye ödenmişse KULLANICI'dan tahsil edilen
                     bedelin KULLANICI’ya iadesi İŞLETME tarafından yapılacaktır.
-                    Eğer İŞLETME'ye aktarılan bedel ile Bubilet’in tahsil ettiği
-                    bedel arasında bir fark varsa, Bubilet’in yükümlülüğü bu
-                    fark bedeli ile sınırlıdır. Bubilet’in İŞLETME'ye aktardığı
-                    tutara ilişkin herhangi bir geri ödeme sorumluluğu
-                    bulunmamaktadır.
+                    Eğer İŞLETME'ye aktarılan bedel ile Bilet 48’in tahsil
+                    ettiği bedel arasında bir fark varsa, Bilet 48’in
+                    yükümlülüğü bu fark bedeli ile sınırlıdır. Bilet 48’in
+                    İŞLETME'ye aktardığı tutara ilişkin herhangi bir geri ödeme
+                    sorumluluğu bulunmamaktadır.
                   </span>
                 </p>
                 <p>
@@ -647,12 +647,12 @@ export default function Page() {
                 </p>
                 <p>
                   <span lang="TR">
-                    KULLANICI, Bubilet&nbsp;aracılığı ile İŞLETME'den satın
+                    KULLANICI, Bilet 48&nbsp;aracılığı ile İŞLETME'den satın
                     aldığı hizmeti tek seferde kullanacaktır. KULLANICI'nın
                     ödediği bedele ilişkin fatura veya fiş, hizmetin ifa
                     edilmesi sırasında veya en geç 7 (yedi) gün içinde İŞLETME
-                    tarafından düzenlenerek KULLANICI'ya verilecektir.
-                    Bubilet&nbsp;hizmetin sağlayıcısı/sunucusu veya ifa edicisi
+                    tarafından düzenlenerek KULLANICI'ya verilecektir. Bilet
+                    48&nbsp;hizmetin sağlayıcısı/sunucusu veya ifa edicisi
                     olmadığından bundan dolayı herhangi bir sorumluluk kabul
                     etmez.
                   </span>
@@ -706,13 +706,13 @@ export default function Page() {
                 <p>
                   <span lang="TR">
                     Cayma hakkının kullanılabileceği durumlarda, kullanımına
-                    ilişkin talep Bubilet'e faks, iadeli taahhütlü posta ya da
-                    e-posta yoluyla (destek@Bubilet.com.tr) veya Site’de yer
+                    ilişkin talep Bilet 48'e faks, iadeli taahhütlü posta ya da
+                    e-posta yoluyla (destek@bilet48.com.tr) veya Site’de yer
                     alan “Destek Formu” doldurularak yazılı olarak
                     iletilmelidir. Cayma hakkının kullanılması durumunda, eğer
                     cayma hakkının kullanılmasına imkan veren koşullar
-                    sağlanmaktaysa, cayma bildiriminin Bubilet'e ulaştığı
-                    tarihten itibaren 10 (on) gün içinde Bubilet tarafından
+                    sağlanmaktaysa, cayma bildiriminin Bilet 48'e ulaştığı
+                    tarihten itibaren 10 (on) gün içinde Bilet 48 tarafından
                     tahsil edilmiş olan tutar KULLANICI'ya iade edilecektir.
                   </span>
                 </p>
@@ -733,7 +733,7 @@ export default function Page() {
                     yürütülecek iletişime dayalıdır. KULLANICI, bu gibi
                     hizmetlerin İŞLETME tarafından ifasının mümkün olmadığı
                     durumlarda yüklenmiş olabileceği ek harcamalara ilişkin
-                    Bubilet’in herhangi bir sorumluluğu bulunmadığını kabul,
+                    Bilet 48’in herhangi bir sorumluluğu bulunmadığını kabul,
                     beyan ve taahhüt eder.
                   </span>
                 </p>
@@ -754,12 +754,13 @@ export default function Page() {
                     veya sağlayıcıya yüklediği her türlü borcun ifası ve her
                     türlü KULLANICI talebinden dolayı tek sorumlu olduğunu,
                     İŞLETME'nin ilgili yükümlülüklerini ihlal etmesi halinde
-                    Bubilet’in hiçbir sorumluluğu bulunmadığını, Bubilet’in
+                    Bilet 48’in hiçbir sorumluluğu bulunmadığını, Bilet 48’in
                     İŞLETME'nin Hizmetler'i mevzuata uygun ve/veya taahhüt
                     ettiği biçimde sağlayacağı yönünde hiçbir garantisi ve
-                    taahhüdü bulunmadığını ve Bubilet'ten bu nedenlerle herhangi
-                    bir talepte bulunmayacağını, ilgili taleplerini yalnızca
-                    İŞLETME'ye yönelteceğini kabul, beyan ve taahhüt eder.
+                    taahhüdü bulunmadığını ve Bilet 48'ten bu nedenlerle
+                    herhangi bir talepte bulunmayacağını, ilgili taleplerini
+                    yalnızca İŞLETME'ye yönelteceğini kabul, beyan ve taahhüt
+                    eder.
                   </span>
                 </p>
                 <p>
@@ -782,18 +783,18 @@ export default function Page() {
                 </p>
                 <p>
                   <span lang="TR">
-                    Bubilet’in, ilgili Hizmet'in kapsamına girdiği Seyahat
+                    Bilet 48’in, ilgili Hizmet'in kapsamına girdiği Seyahat
                     Acentaları Yönetmeliği ve benzeri özel kanun veya ilgili
                     mevzuatta düzenlenen Seyahat Acentası İşletme Belgesi ve
                     benzeri izin, ruhsat ve sair belgeyi temin etmesi; hiçbir
                     surette Seyahat Acentası ve benzeri acente, satıcı veya
-                    sağlayıcı olduğu şeklinde yorumlanamaz. Bubilet’in işbu
+                    sağlayıcı olduğu şeklinde yorumlanamaz. Bilet 48’in işbu
                     belgeleri temin etmesi, İŞLETME'nin, başta Türkiye'de
                     satılan paket turlara ilişkin zorunlu sigorta yapma
                     yükümlülüğü olmak üzere, ilgili özel kanun ve sair mevzuatta
                     düzenlenen yasal yükümlülüklerini ortadan kaldırmaz.
                     KULLANICI, özel kanunlarda düzenlenen bu ve benzeri hak ve
-                    taleplerinin tek sorumlusunun İŞLETME olduğunu, Bubilet’in
+                    taleplerinin tek sorumlusunun İŞLETME olduğunu, Bilet 48’in
                     Hizmet'in satıcısı, sağlayıcısı, acentesi, bayii, seyahat
                     acentası ve benzeri özel kanunlarda düzenlenen yasal
                     sorumlusu olmadığından, yalnızca aracılık vasfını haiz
@@ -810,15 +811,15 @@ export default function Page() {
                 </p>
                 <p>
                   <span lang="TR">
-                    KULLANICI, Bubilet’in hizmeti sunan kişi olmayıp, yalnızca
+                    KULLANICI, Bilet 48’in hizmeti sunan kişi olmayıp, yalnızca
                     İŞLETME ile KULLANICI arasında aracılık yapmakta olduğunu
-                    kabul etmektedir. Bubilet, İŞLETME tarafından KULLANICI'ya
+                    kabul etmektedir. Bilet 48, İŞLETME tarafından KULLANICI'ya
                     sunulan ve/veya sağlanan hizmetin kusurlu ya da ayıplı
                     olması ve/veya belirlenen süre içerisinde
                     sunul(a)maması/sağlan(a)maması dolayısıyla sorumlu değildir.
                     KULLANICI, bu türlü talepleri yalnızca İŞLETME'ye karşı
-                    ileri süreceğini, Bubilet’in bu yönde bir garantisi veya
-                    taahhüdü bulunmadığını, Bubilet'e karşı her hangi bir
+                    ileri süreceğini, Bilet 48’in bu yönde bir garantisi veya
+                    taahhüdü bulunmadığını, Bilet 48'e karşı her hangi bir
                     talepte bulunmayacağını kabul ve taahhüt eder.
                   </span>
                 </p>
@@ -827,7 +828,7 @@ export default function Page() {
                 </p>
                 <p>
                   <span lang="TR">
-                    KULLANICI'nın Bubilet aracılığı ile satın aldığı hizmet,
+                    KULLANICI'nın Bilet 48 aracılığı ile satın aldığı hizmet,
                     İŞLETME veya 3. kişiler tarafından düzenlenen başka
                     kampanyalarla birleştirilemez.
                   </span>
@@ -838,13 +839,13 @@ export default function Page() {
                 <p>
                   <span lang="TR">
                     KULLANICI, hizmetin kullanımı için verilen şifrenin
-                    çalınması veya 3. kişilerce kullanılması halinde Bubilet’in
+                    çalınması veya 3. kişilerce kullanılması halinde Bilet 48’in
                     ya da İŞLETME'nin sorumlu olmayacağını kabul eder.
                   </span>
                 </p>
                 <p>
                   <span lang="TR">
-                    Bubilet çekinin geçerli olacağı tarih ve süreler SİTE'de
+                    Bilet 48 çekinin geçerli olacağı tarih ve süreler SİTE'de
                     satış koşul ve şartları ile birlikte ilan edilecek olup; bu
                     süre içerisinde kullanılmayan kuponlar geçerliliğini
                     yitirecektir. KULLANICI, süresinde kullanılmayan kuponlarr
@@ -872,7 +873,7 @@ export default function Page() {
                 </p>
                 <p>
                   <span lang="TR">
-                    Kullanıcı, işbu Form’da ayrıntıları ile belirtilen, Bubilet
+                    Kullanıcı, işbu Form’da ayrıntıları ile belirtilen, Bilet 48
                     ile ilgili gerekli tüm bilgi ve iletişim adreslerini, satışa
                     konu hizmetin/etkinliğin temel niteliklerini, içeriğini,
                     vergiler dahil satış fiyatı ve olması halinde ek
