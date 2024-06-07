@@ -1,6 +1,10 @@
 import LeftMenu from "@/components/footerLinks/leftmenu";
 
-//#f1f1f1
+export const metadata = {
+  title: "Hakkımızda | Bilet 48",
+  description: "Hakkımızda description",
+};
+
 export default function Page() {
   return (
     <>
