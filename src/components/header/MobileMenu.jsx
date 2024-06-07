@@ -253,13 +253,13 @@ const MobileMenu = () => {
           </SubMenu> */}
           {/* End  All Dashboard Menu */}
 
-          <MenuItem
+          {/* <MenuItem
             data-bs-dismiss="offcanvas"
             onClick={() => router.push("/contact")}
             className={pathname === "/contact" ? "menu-active-link" : ""}
           >
             Contact
-          </MenuItem>
+          </MenuItem> */}
           {/* End Contact  Menu */}
         </Menu>
       </Sidebar>

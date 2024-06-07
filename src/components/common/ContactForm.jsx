@@ -29,6 +29,14 @@ const ContactForm = () => {
       </div>
       <div className="col-12">
         <div className="form-input">
+          <input type="text" id="phone" required />
+          <label htmlFor="phone" className="lh-1 text-16 text-light-1">
+            Phone
+          </label>
+        </div>
+      </div>
+      <div className="col-12">
+        <div className="form-input">
           <input type="text" id="subject" required />
           <label htmlFor="subject" className="lh-1 text-16 text-light-1">
             Subject

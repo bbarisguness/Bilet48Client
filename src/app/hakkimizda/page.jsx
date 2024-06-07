@@ -9,7 +9,7 @@ export default function Page() {
   return (
     <>
       <div className="header-margin"></div>
-      <div className="container">
+      <div className="container mb-50">
         <div className="row">
           <LeftMenu activeLink="hakkimizda" />
           <div className="col-lg-9">

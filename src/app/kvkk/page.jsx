@@ -10,9 +10,9 @@ export default function Page() {
   return (
     <>
       <div className="header-margin"></div>
-      <div className="container">
+      <div className="container mb-50">
         <div className="row">
-          <LeftMenu activeLink="kullanim-kosullari" />
+          <LeftMenu activeLink="kvkk" />
           <div className="col-lg-9">
             <div className="page-detail typography">
               <div>
