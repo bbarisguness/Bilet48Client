@@ -586,6 +586,12 @@
   align-items: center;
 }
 
+.mytable tbody,
+.mytable tr,
+.mytable td {
+  border-width: 2px;
+}
+
 /*
  *	FOOTER, LİNK PAGES END
  *	---------------------------------------------
