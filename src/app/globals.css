@@ -499,6 +499,116 @@
   left: 10%;
 }
 
+/*
+ *	FOOTER, LİNK PAGES BEGİN
+ *	---------------------------------------------
+ */
+
+.page-menu {
+  padding: 20px 30px;
+  background: #f1f1f1;
+  border-radius: 0 0 20px 20px;
+  position: sticky;
+  top: 0;
+  box-shadow: 0px 22px 34px -13px rgba(0, 0, 0, 0.06);
+}
+
+.page-menu ul {
+  display: flex;
+  flex-direction: column;
+  gap: 10px 0;
+}
+
+.page-menu ul li {
+  cursor: pointer;
+}
+
+.page-menu ul li a {
+  font-size: 18px;
+  font-weight: 600;
+  color: black;
+  padding: 7px 0;
+  display: block;
+}
+
+.page-menu ul li a:hover {
+  color: #13357b;
+}
+
+.page-menu ul li.active a {
+  color: #13357b;
+}
+
+.page-detail {
+  padding: 30px;
+  background: #fff;
+  border-radius: 0 0 20px 20px;
+  box-shadow: 0px 22px 34px -13px rgba(0, 0, 0, 0.06);
+}
+
+.page-detail.typography {
+  width: 100%;
+  background-color: #f1f1f1;
+}
+
+.typography p {
+  font-size: 18px;
+  line-height: 34px;
+  margin-bottom: 20px;
+  color: #4b4b4b;
+  font-weight: 400;
+  padding: 0 22px;
+  letter-spacing: 0;
+}
+
+.typography h2 {
+  color: black;
+  font-weight: 600;
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+  padding: 0 22px;
+  letter-spacing: 0;
+  font-size: 24px;
+}
+
+.typography h2::before {
+  content: "";
+  width: 7px;
+  height: 0.8em;
+  background: green;
+  margin-right: 12px;
+  display: flex;
+  align-items: center;
+}
+
+/*
+ *	FOOTER, LİNK PAGES END
+ *	---------------------------------------------
+ */
+
+@media only screen and (max-width: 1400px) {
+  .page-menu {
+    padding: 15px 20px;
+  }
+  .page-menu ul {
+    gap: 5px 0;
+  }
+  .page-menu ul li a {
+    font-size: 16px;
+  }
+  .page-detail {
+    padding: 20px 25px;
+  }
+  .typography p {
+    font-size: 16px;
+    line-height: 30px;
+  }
+  .typography h2 {
+    font-size: 20px;
+  }
+}
+
 @media only screen and (max-width: 1024px) {
   .tt-subtitle {
     font-size: 32px;
@@ -516,6 +626,14 @@
   .tt-btn-default.tt-btn__wide span {
     padding-left: 35px;
     padding-right: 35px;
+  }
+  .page-menu {
+    display: none;
+  }
+  .page-detail {
+    padding: 20px;
+    margin-top: 0;
+    border-radius: 0 0 20px 20px;
   }
 }
 
@@ -537,5 +655,11 @@
 @media only screen and (max-width: 575px) {
   .divider {
     height: 32px;
+  }
+  .typography p {
+    font-size: 14px;
+    line-height: 26px;
+    padding: 0 15px;
+    margin-bottom: 15px;
   }
 }

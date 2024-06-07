@@ -3,26 +3,26 @@ module.exports = [
     id: 1,
     title: "Company",
     menuList: [
-      { name: "Hakkımızda", routerPath: "/" },
-      { name: "İletişim", routerPath: "/" },
-      { name: "Kullanıcı Sözleşmesi", routerPath: "/" },
+      { name: "Hakkımızda", routerPath: "/hakkimizda" },
+      { name: "İletişim", routerPath: "/iletisim" },
+      { name: "Kullanıcı Sözleşmesi", routerPath: "/kullanici-sozlesmesi" },
     ],
   },
   {
     id: 2,
     title: "Support",
     menuList: [
-      { name: "Gizlilik Politikası", routerPath: "/" },
-      { name: "Kullanıcı Sözleşmesi", routerPath: "/" },
+      { name: "Gizlilik Politikası", routerPath: "/gizlilik-politikasi" },
+      { name: "Kullanıcı Sözleşmesi", routerPath: "/kullanici-sozlesmesi" },
     ],
   },
   {
     id: 3,
     title: "Other Services",
     menuList: [
-      { name: "Kvkk", routerPath: "/" },
-      { name: "Kullanım Koşulları", routerPath: "/" },      
-      
+      { name: "Kvkk", routerPath: "/kvkk" },
+      { name: "Kullanım Koşulları", routerPath: "/kullanim-kosullari" },
+
     ],
   },
 ];
