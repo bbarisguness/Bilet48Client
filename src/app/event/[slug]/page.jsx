@@ -50,20 +50,20 @@ export default function Page({ params }) {
                         <div className="row x-gap-10 items-center">
                           <div className="col-auto">
                             <div className="d-flex x-gap-5 items-center">
-                              <i className="icon-location-2 text-16 text-light-1" />
+                              <i className="icon-clock text-16 text-light-1" />
                               <div className="text-15 text-light-1">
                                 {rental?.location}
                               </div>
                             </div>
                           </div>
-                          <div className="col-auto">
+                          {/* <div className="col-auto">
                             <button
                               data-x-click="mapFilter"
                               className="text-blue-1 text-15 underline"
                             >
                               Show on map
                             </button>
-                          </div>
+                          </div> */}
                         </div>
                       </div>
                     </div>

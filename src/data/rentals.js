@@ -2,10 +2,10 @@ module.exports = [
   {
     id: 1,
     tag: "",
-    slideImg: ["/img/rentals/1.webp", "/img/rentals/2.webp", "/img/rentals/3.webp", "/img/rentals/4.webp", "/img/rentals/5.webp"],
-    title: "Luxury New Apartment With Private Garden",
-    slug: "luxury-new-apartment-with-private-garden",
-    location: "Westminster Borough, London",
+    slideImg: ["/img/events/madrigl.jpg", "/img/events/madrigl.jpg", "/img/events/madrigl.jpg", "/img/events/madrigl.jpg", "/img/events/madrigl.jpg"],
+    title: "Madrigal Konseri",
+    slug: "madrigal-konseri",
+    location: "FRIDAY, SEP 13, 2024 22:30",
     ratings: "4.8",
     numberOfReviews: "3014",
     price: "72",
@@ -17,10 +17,10 @@ module.exports = [
   {
     id: 2,
     tag: "",
-    slideImg: ["/img/rentals/1.webp", "/img/rentals/2.webp", "/img/rentals/3.webp", "/img/rentals/4.webp", "/img/rentals/5.webp"],
-    title: "Abc falan filan",
-    slug: "abc-falan-filan",
-    location: "Westminster Borough, London",
+    slideImg: ["/img/events/sago.jpg", "/img/events/sago.jpg", "/img/events/sago.jpg", "/img/events/sago.jpg", "/img/events/sago.jpg"],
+    title: "Sagopa Kajmer",
+    slug: "sagopa-kajmer",
+    location: "FRIDAY, JUN 7, 2024 22:30",
     ratings: "4.8",
     numberOfReviews: "3014",
     price: "72",
@@ -29,6 +29,24 @@ module.exports = [
     bed: "1",
     delayAnimation: "100",
   },
+  {
+    id: 2,
+    tag: "",
+    slideImg: ["/img/events/levelc5.jpg", "/img/events/levelc5.jpg", "/img/events/levelc5.jpg", "/img/events/levelc5.jpg", "/img/events/levelc5.jpg"],
+    title: "Lvbel C5 Konseri",
+    slug: "lvbel-c5",
+    location: "FRIDAY, JUN 21, 2024 00:00",
+    ratings: "4.8",
+    numberOfReviews: "3014",
+    price: "72",
+    guest: "2",
+    bedroom: "1",
+    bed: "1",
+    delayAnimation: "100",
+  },
+
+
+  
 
   // {
   //   id: 3,
