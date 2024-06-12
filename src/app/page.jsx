@@ -1,5 +1,6 @@
 import Hero6 from "@/components/hero/hero-6";
 import AddBanner from "@/components/home/AddBanner";
+import FilterHotels4 from "@/components/hotels/FilterHotels4";
 
 export async function generateMetadata({ params, searchParams }, parent) {
   return {
@@ -13,7 +14,8 @@ export default function Home({ params, searchParams }) {
     <>
       {/* <Hero6 /> */}
       <div className="header-margin"></div>
-      <section className="pt-30 layout-pb-md">
+
+      {/* <section className="pt-30 layout-pb-md">
         <div className="container">
           <div className="row justify-center text-center">
             <div className="col-auto">
@@ -29,6 +31,24 @@ export default function Home({ params, searchParams }) {
             <AddBanner />
           </div>
         </div>
+      </section> */}
+
+      <section className="layout-pt-md layout-pb-lg">
+        <div className="container">
+          <div className="row justify-center text-center">
+            <div className="col-auto">
+              <div className="sectionTitle -md">
+                <h2 className="sectionTitle__title">Events</h2>
+                <p className=" sectionTitle__text mt-5 sm:mt-0">
+                  Interdum et malesuada fames ac ante ipsum
+                </p>
+              </div>
+            </div>
+          </div>
+          {/* End .row */}
+          <FilterHotels4 />
+        </div>
+        {/* End .container */}
       </section>
     </>
   );
