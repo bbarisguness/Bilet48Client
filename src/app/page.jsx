@@ -1,6 +1,8 @@
 import Hero6 from "@/components/hero/hero-6";
 import AddBanner from "@/components/home/AddBanner";
 import FilterHotels4 from "@/components/hotels/FilterHotels4";
+import Hero4 from "@/components/hero/hero-4";
+import Hero7 from "@/components/hero/hero-7";
 
 export async function generateMetadata({ params, searchParams }, parent) {
   return {
@@ -14,6 +16,8 @@ export default function Home({ params, searchParams }) {
     <>
       {/* <Hero6 /> */}
       <div className="header-margin"></div>
+      {/* <Hero4 /> */}
+      <Hero7 />
 
       {/* <section className="pt-30 layout-pb-md">
         <div className="container">
