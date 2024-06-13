@@ -5,37 +5,65 @@ import * as Yup from "yup";
 import { useRef } from "react";
 import { Formik, Form, Field } from "formik";
 import TicketCard from "@/components/checkout/ticketCard";
+import {
+  cc_CVV_format,
+  cc_expires_format,
+  maskCreditCard,
+} from "@/utils/myUtils";
 
 const ContactFormSchema = Yup.object().shape({
-  firstName: Yup.string()
+  nameAndSurname: Yup.string()
     .min(2, "Lütfen daha uzun bir isim girin")
     .max(50, "Lütfen daha kısa bir isim girin")
     .required("Lütfen isim girin"),
   email: Yup.string()
     .email("Lütfen geçerli mail girin")
     .required("Lütfen mail girin"),
-  message: Yup.string().required("Lütfen mesajınızı girin"),
+  cardNumber: Yup.string()
+    .min(19, "Geçersiz kart numarası")
+    .max(19, "Geçersiz kart numarası")
+    .required("Lütfen kart numarası girin"),
+  cvvCode: Yup.string()
+    .min(3, "Geçersiz güvenlik kodu")
+    .max(3, "Geçersiz güvenlik kodu")
+    .required("Lütfen güvenlik kodunu girin"),
+  expirationDate: Yup.string()
+    .min(5, "Geçersiz tarih")
+    .max(5, "Geçersiz tarih")
+    .required("Lütfen tarih girin"),
 });
 
 export default function CheckOut() {
   const router = useRouter();
-  const contactFormSuccesMessageRef = useRef();
   const data = useSelector((state) => state.buyPageSelectedTicket);
 
   if (data.categoryId < 1) {
     router.push("/");
     return;
   }
-
-  // const showContactFormSuccesMessage = () => {
-  //   contactFormSuccesMessageRef.current.classList.add("tt-active");
-  //   setTimeout(() => {
-  //     contactFormSuccesMessageRef.current.classList.remove("tt-active");
-  //   }, [2000]);
-  // };
-
   const clickContactFormButton = () => {
-    document.getElementsByName("firstName")[0].focus();
+    document.getElementsByName("nameAndSurname")[0].focus();
+  };
+
+  const formatPhoneNumber = (value) => {
+    if (!value) return value;
+    if (value == 0) return "";
+    const phoneNumber = value.replace(/[^\d]/g, "");
+    const phoneNumberLength = phoneNumber.length;
+    if (phoneNumberLength < 4) return phoneNumber;
+    if (phoneNumberLength < 7) {
+      return `(${phoneNumber.slice(0, 3)}) ${phoneNumber.slice(3)}`;
+    }
+    if (phoneNumberLength < 9) {
+      return `(${phoneNumber.slice(0, 3)}) ${phoneNumber.slice(
+        3,
+        6
+      )} ${phoneNumber.slice(6, 10)}`;
+    }
+    return `(${phoneNumber.slice(0, 3)}) ${phoneNumber.slice(
+      3,
+      6
+    )} ${phoneNumber.slice(6, 8)} ${phoneNumber.slice(8)}`;
   };
 
   return (
@@ -46,7 +74,7 @@ export default function CheckOut() {
           <div className="container">
             <div className="row pb-60 pt-60">
               <div
-                className="col-md-6"
+                className="col-md-5"
                 style={{
                   display: "flex",
                   flexDirection: "column",
@@ -62,7 +90,7 @@ export default function CheckOut() {
                 <TicketCard />
               </div>
               <div
-                className="col-md-6"
+                className="col-md-7"
                 style={{
                   display: "flex",
                   flexDirection: "column",
@@ -78,36 +106,47 @@ export default function CheckOut() {
                 <div className="checkoutForm">
                   <Formik
                     initialValues={{
-                      firstName: "",
+                      nameAndSurname: "",
                       email: "",
                       phone: "",
-                      message: "",
+                      cardNumber: "",
+                      expirationDate: "",
+                      cvvCode: "",
                     }}
                     validationSchema={ContactFormSchema}
                     onSubmit={(values, actions) => {
                       //showContactFormSuccesMessage()
                       //actions.resetForm();
-                      //document.getElementsByName("firstName")[0].blur();
-                      router.push("/congratulation");
+                      //document.getElementsByName("nameAndSurname")[0].blur();
+                      console.log(values);
+                      //router.push("/congratulation");
                     }}
                   >
-                    {({ errors, touched, submitCount }) => (
+                    {({
+                      errors,
+                      touched,
+                      submitCount,
+                      setFieldValue,
+                      values,
+                    }) => (
                       <Form
                         id="contactform"
                         className="form-default contact-form"
                       >
                         <div className="form-group">
                           <Field
-                            name="firstName"
+                            name="nameAndSurname"
                             type="text"
                             className="form-control"
                             id="inputName"
-                            placeholder="First name *"
+                            placeholder="Ad Soyad *"
                           />
-                          {errors.firstName &&
-                          touched.firstName &&
+                          {errors.nameAndSurname &&
+                          touched.nameAndSurname &&
                           submitCount > 0 ? (
-                            <label className="error">{errors.firstName}</label>
+                            <label className="error">
+                              {errors.nameAndSurname}
+                            </label>
                           ) : null}
                         </div>
                         <div className="form-group">
@@ -128,36 +167,90 @@ export default function CheckOut() {
                             type="text"
                             className="form-control"
                             id="inputReview"
+                            maxLength={15}
                             placeholder="Phone number"
+                            onChange={(e) => {
+                              const formattedPhoneNumber = formatPhoneNumber(
+                                e.target.value
+                              );
+                              setFieldValue("phone", formattedPhoneNumber)
+                            }}
                           />
                           {errors.phone && touched.phone ? (
                             <label className="error">{errors.phone}</label>
                           ) : null}
                         </div>
                         <div className="form-group">
-                          {/* <textarea className="form-control" rows="7" placeholder="Message" id="textareaMessage"></textarea> */}
-
                           <Field
-                            name="message"
+                            name="cardNumber"
                             type="text"
-                            as="textarea"
-                            rows={7}
                             className="form-control"
-                            id="textareaMessage"
-                            placeholder="Message *"
+                            placeholder="Card Number *"
+                            onChange={(e) => {
+                              const input = e.target.value;
+                              const sanitizedInput = input.replace(/\D/g, ""); // Sadece sayısal karakterleri tutar
+                              setFieldValue(
+                                "cardNumber",
+                                maskCreditCard(sanitizedInput)
+                              );
+                            }}
+                            maxLength={19}
                           />
-                          {errors.message &&
-                          touched.message &&
+                          {errors.cardNumber &&
+                          touched.cardNumber &&
                           submitCount > 0 ? (
-                            <label className="error">{errors.message}</label>
+                            <label className="error">{errors.cardNumber}</label>
                           ) : null}
+                        </div>
+                        <div className="row">
+                          <div className="form-group col-md-6">
+                            <Field
+                              name="expirationDate"
+                              type="text"
+                              className="form-control"
+                              placeholder="Expiration date *"
+                              onChange={(e) => {
+                                setFieldValue(
+                                  "expirationDate",
+                                  cc_expires_format(e.target.value)
+                                );
+                              }}
+                            />
+                            {errors.expirationDate &&
+                            touched.expirationDate &&
+                            submitCount > 0 ? (
+                              <label className="error">
+                                {errors.expirationDate}
+                              </label>
+                            ) : null}
+                          </div>
+                          <div className="form-group col-md-6">
+                            <Field
+                              name="cvvCode"
+                              type="text"
+                              className="form-control"
+                              placeholder="CVV *"
+                              onChange={(e) => {
+                                setFieldValue(
+                                  "cvvCode",
+                                  cc_CVV_format(e.target.value)
+                                );
+                              }}
+                              maxLength={3}
+                            />
+                            {errors.cvvCode &&
+                            touched.cvvCode &&
+                            submitCount > 0 ? (
+                              <label className="error">{errors.cvvCode}</label>
+                            ) : null}
+                          </div>
                         </div>
                         <button
                           onClick={clickContactFormButton}
                           type="submit"
                           className="tt-btn-default tt-btn__wide"
                         >
-                          <span>send message</span>
+                          <span>ÖDE</span>
                         </button>
                       </Form>
                     )}
