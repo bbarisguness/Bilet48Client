@@ -7,7 +7,7 @@ import { Navigation } from "swiper";
 const index = () => {
   return (
     <>
-      <section className="masthead -type-7 pt-0">
+      <section className="masthead -type-7 pt-0 pb-0">
         <div className="masthead-slider js-masthead-slider-7">
           <Swiper
             modules={[Navigation]}
