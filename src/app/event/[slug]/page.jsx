@@ -6,6 +6,7 @@ import Overview from "@/components/rental-single/Overview";
 import SidebarRight from "@/components/rental-single/SidebarRight";
 import NotFound from "@/components/common/NotFound";
 import Link from "next/link";
+import TourGallery from "@/components/tour-single/TourGallery";
 
 export async function generateMetadata({ params }) {
   const eventData = rentalsData.find((item) => item.slug == params.slug);
@@ -106,35 +107,15 @@ export default function Page({ params }) {
         </section>
         {/* End sections pt-40 */}
 
-        <section className="pt-40">
+        {/* <section className="pt-40">
           <div className="container">
             <SlideGallery rental={rental} />
           </div>
-        </section>
+        </section> */}
+
         {/* End gallery grid wrapper */}
 
-        <section className="pt-40 js-pin-container">
-          <div className="container">
-            <div className="row y-gap-30">
-              <div className="col-xl-8">
-                {/* <h3 className="text-22 fw-500">Property highlights</h3> */}
-                {/* <PropertyHighlights /> */}
-                {/* End toursnapshot */}
-                <div className="border-top-light mt-40 mb-40"></div>
-                <Overview />
-                {/* End  Overview */}
-              </div>
-              {/* End .col-xl-8 */}
-
-              <div className="col-xl-4">
-                <SidebarRight rental={rental} />
-              </div>
-              {/* End .col-xl-4 */}
-            </div>
-            {/* End .row */}
-          </div>
-          {/* End container */}
-        </section>
+        <TourGallery tour={rental} />
         {/* End single page content */}
       </>
     );
