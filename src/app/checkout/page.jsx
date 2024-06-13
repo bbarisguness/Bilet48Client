@@ -91,7 +91,7 @@ export default function CheckOut() {
                       router.push("/congratulation");
                     }}
                   >
-                    {({ errors, touched }) => (
+                    {({ errors, touched, submitCount }) => (
                       <Form
                         id="contactform"
                         className="form-default contact-form"
@@ -104,7 +104,9 @@ export default function CheckOut() {
                             id="inputName"
                             placeholder="First name *"
                           />
-                          {errors.firstName && touched.firstName ? (
+                          {errors.firstName &&
+                          touched.firstName &&
+                          submitCount > 0 ? (
                             <label className="error">{errors.firstName}</label>
                           ) : null}
                         </div>
@@ -116,7 +118,7 @@ export default function CheckOut() {
                             id="inputEmail"
                             placeholder="Email address *"
                           />
-                          {errors.email && touched.email ? (
+                          {errors.email && touched.email && submitCount > 0 ? (
                             <label className="error">{errors.email}</label>
                           ) : null}
                         </div>
@@ -144,7 +146,9 @@ export default function CheckOut() {
                             id="textareaMessage"
                             placeholder="Message *"
                           />
-                          {errors.message && touched.message ? (
+                          {errors.message &&
+                          touched.message &&
+                          submitCount > 0 ? (
                             <label className="error">{errors.message}</label>
                           ) : null}
                         </div>
