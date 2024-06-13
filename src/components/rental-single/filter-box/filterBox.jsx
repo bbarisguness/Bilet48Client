@@ -27,7 +27,7 @@ const FilterBox = () => {
           href="/booking-page"
           className="button -dark-1 py-15 px-35 h-60 col-12 rounded-4 bg-blue-1 text-white"
         >
-          Book Now
+          Bilet Al
         </Link>
       </div>
       {/* End .col-12 */}
