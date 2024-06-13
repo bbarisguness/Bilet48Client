@@ -1,4 +1,5 @@
 import React from "react";
+import Image from "next/image";
 
 export default function Loading() {
   return (
@@ -13,11 +14,17 @@ export default function Loading() {
         display: "flex",
         alignItems: "center",
         justifyContent: "center",
-        backgroundColor: "black",
+        backgroundColor: "#13357b",
         color: "white",
       }}
     >
-      loading..
+      <Image
+        src="/img/general/logo-light-without-text.png"
+        width={50}
+        height={50}
+        alt="Loading"
+      />
+      <span style={{ marginLeft: 10 }}>Bilet48</span>
     </div>
   );
 }
