@@ -3,7 +3,7 @@ import BlogPagination from "@/components/blog/BlogPagination";
 import FilterHotels4 from "@/components/hotels/FilterHotels4";
 
 export const metadata = {
-  title: "Events | Bilet 48",
+  title: "Events | Bilet48",
   description: "Event list",
 };
 

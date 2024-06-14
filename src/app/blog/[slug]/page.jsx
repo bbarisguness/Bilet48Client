@@ -10,7 +10,7 @@ export async function generateMetadata({ params }) {
   const blog = blogs.find((item) => item?.slug == params?.slug);
 
   return {
-    title: `${blog?.title || "Not Found"} | Bilet 48`,
+    title: `${blog?.title || "Not Found"} | Bilet48`,
     description: "Blog Detay açıklama",
   };
 

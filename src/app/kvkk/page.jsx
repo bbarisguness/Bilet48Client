@@ -2,7 +2,7 @@ import LeftMenu from "@/components/footerLinks/leftmenu";
 import Link from "next/link";
 
 export const metadata = {
-  title: "KVKK | Bilet 48",
+  title: "KVKK | Bilet48",
   description: "Kişisel Verilerin Korunması Kanunu description",
 };
 

@@ -12,7 +12,7 @@ export async function generateMetadata({ params }) {
   const eventData = rentalsData.find((item) => item.slug == params.slug);
 
   return {
-    title: `${eventData?.title || "Not Found"} | Bilet 48`,
+    title: `${eventData?.title || "Not Found"} | Bilet48`,
     description: "Detay açıklama",
   };
 

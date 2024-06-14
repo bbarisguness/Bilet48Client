@@ -7,8 +7,8 @@ import Link from "next/link";
 
 export async function generateMetadata({ params, searchParams }, parent) {
   return {
-    title: "Bilet 48",
-    description: "Bilet 48 description",
+    title: "Bilet48",
+    description: "Bilet48 description",
   };
 }
 

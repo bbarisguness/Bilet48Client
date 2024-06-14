@@ -1,7 +1,7 @@
 import LeftMenu from "@/components/footerLinks/leftmenu";
 
 export const metadata = {
-  title: "Hakkımızda | Bilet 48",
+  title: "Hakkımızda | Bilet48",
   description: "Hakkımızda description",
 };
 
@@ -20,7 +20,7 @@ export default function Page() {
                     <strong>BuBilet Nedir?</strong>
                     <br />
                     <br />
-                    Bilet 48, organizatörler tarafından düzenlenen farklı
+                    Bilet48, organizatörler tarafından düzenlenen farklı
                     kategorilerdeki etkinlikleri, dijital medya platformlarını
                     kullanarak milyonlara ulaştıran yeni nesil online bilet
                     satış sitesidir.
@@ -43,13 +43,13 @@ export default function Page() {
                   <h2>
                     <strong>
                       <br />
-                      Bilet 48’de İade İşlemini Nasıl Yaparım?
+                      Bilet48’de İade İşlemini Nasıl Yaparım?
                       <br />
                       <br />
                     </strong>
                   </h2>
                   <p>
-                    Bilet 48 sitesinde iadeler Etkinlik Detayında ve/veya
+                    Bilet48 sitesinde iadeler Etkinlik Detayında ve/veya
                     Kurallarında aksi belirtilmediği hallerde Etkinlikten 48
                     saat öncesine kadar gerçekleştirilebilmektedir.
                     <br />

@@ -2,7 +2,7 @@ import LeftMenu from "@/components/footerLinks/leftmenu";
 import Link from "next/link";
 
 export const metadata = {
-  title: "Kullanıcı sözleşmesi | Bilet 48",
+  title: "Kullanıcı sözleşmesi | Bilet48",
   description: "Kullanıcı sözleşmesi description",
 };
 

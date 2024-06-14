@@ -2,7 +2,7 @@ import React from "react";
 import Blog1 from "@/components/blog/Blog1";
 
 export const metadata = {
-  title: "Blogs | Bilet 48",
+  title: "Blogs | Bilet48",
   description: "Blog detay",
 };
 

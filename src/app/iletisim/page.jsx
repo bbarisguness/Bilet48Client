@@ -28,7 +28,7 @@ const Section3 = () => {
     <div className="contact-home">
       <div className="contact-home-top">
         <span>
-          Bilet 48 Organizasyon Reklam Kültür Turizm Sanayi Ticaret A.Ş
+          Bilet48 Organizasyon Reklam Kültür Turizm Sanayi Ticaret A.Ş
         </span>
       </div>
       <div className="contact-home-area">

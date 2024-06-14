@@ -2,7 +2,7 @@ import LeftMenu from "@/components/footerLinks/leftmenu";
 import Link from "next/link";
 
 export const metadata = {
-  title: "Gizlilik politikası | Bilet 48",
+  title: "Gizlilik politikası | Bilet48",
   description: "Gizlilik politikası description",
 };
 
@@ -20,7 +20,7 @@ export default function Page() {
                   <strong>GİZLİLİK</strong>
                 </p>
                 <p>
-                  Bilet 48, müşterilerine daha iyi hizmet verebilmek amacıyla
+                  Bilet48, müşterilerine daha iyi hizmet verebilmek amacıyla
                   bazı kişisel bilgilerinizi (isim, soyisim, telefon, yaş, ilgi
                   alanlarınız, e-posta vb…) sizlerden talep etmektedir. Toplanan
                   kişisel verileriniz 6698 sayılı Kişisel Verilerin Korunması
@@ -36,19 +36,19 @@ export default function Page() {
                   nden ulaşabilirsiniz.
                 </p>
                 <p>
-                  Bilet 48 Kullanıcılara ait bilgilerin gizliliğini
+                  Bilet48 Kullanıcılara ait bilgilerin gizliliğini
                   sağlama-koruma hususunda son derece özen göstermektedir. Bilet
                   48 veritabanında toplanan bu bilgiler, dönemsel kampanya
                   çalışmaları, müşteri profillerine yönelik özel promosyon
                   faaliyetlerinin kurgulanması ve istenmeyen e-postaların
                   iletilmemesine yönelik müşteri “sınıflandırma” çalışmalarında
-                  sadece Bilet 48 tarafından kullanılmaktadır. Gizlilik
+                  sadece Bilet48 tarafından kullanılmaktadır. Gizlilik
                   Politikası herhangi başka bir kaynak veya yöntem kullanılmadan
-                  sadece Bilet 48 sitesi üzerinden elde edilen bilgiler için
+                  sadece Bilet48 sitesi üzerinden elde edilen bilgiler için
                   geçerlidir.
                 </p>
                 <p>
-                  Bilet 48, üyelik formlarından topladığı bilgileri, söz konusu
+                  Bilet48, üyelik formlarından topladığı bilgileri, söz konusu
                   üyenin haberi ya da aksi bir talimatı olmaksızın veya Kanunun
                   öngördüğü haller dışında veya
                   <Link href="/kvkk">
@@ -59,14 +59,14 @@ export default function Page() {
                   kullanmamakta ve de satmamaktadır.
                 </p>
                 <p>
-                  Bilet 48, e-posta adresleri ve üyelik formlarında istediği
+                  Bilet48, e-posta adresleri ve üyelik formlarında istediği
                   kişisel bilgilerin haricinde site kullanımı sırasında
                   izlediği, ziyaretçi hareket ve tercihlerini analiz ederek
                   yorumlamaktadır. Kişisel bilgiler içermeyen bu istatistiksel
-                  veriler, Bilet 48 müşterilerine daha özel ve etkin bir
-                  alışveriş deneyimi yaşatmak amacıyla Bilet 48&nbsp;iş
+                  veriler, Bilet48 müşterilerine daha özel ve etkin bir
+                  alışveriş deneyimi yaşatmak amacıyla Bilet48&nbsp;iş
                   ortakları ile paylaşılabilmektedir. İşbu Gizlilik Bildirimini
-                  kabul etmekle kişisel bilgilerinizin Bilet 48 iş ortakları ile
+                  kabul etmekle kişisel bilgilerinizin Bilet48 iş ortakları ile
                   paylaşılabileceğine onay vermiş olacaksınız.
                 </p>
                 <p>
