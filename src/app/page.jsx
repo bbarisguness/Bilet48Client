@@ -3,6 +3,7 @@ import AddBanner from "@/components/home/AddBanner";
 import FilterHotels4 from "@/components/hotels/FilterHotels4";
 import Hero4 from "@/components/hero/hero-4";
 import Hero7 from "@/components/hero/hero-7";
+import Link from "next/link";
 
 export async function generateMetadata({ params, searchParams }, parent) {
   return {
@@ -51,6 +52,16 @@ export default function Home({ params, searchParams }) {
           </div>
           {/* End .row */}
           <FilterHotels4 />
+          <div className="row justify-center pt-60">
+            <div className="col-auto">
+              <Link
+                href="/event"
+                className="button px-40 h-50 -outline-blue-1 text-blue-1"
+              >
+                View All <div className="icon-arrow-top-right ml-15" />
+              </Link>
+            </div>
+          </div>
         </div>
         {/* End .container */}
       </section>
