@@ -3,18 +3,13 @@
 import Image from "next/image";
 import Link from "next/link";
 import Slider from "react-slick";
-import { eventsData } from "@/data/events";
 import isTextMatched from "../../utils/isTextMatched";
 import { useEffect, useState } from "react";
 import { GrLocation } from "react-icons/gr";
 import { FaRegCalendarAlt } from "react-icons/fa";
 
-const FilterHotels2 = ({ filterOption }) => {
-  const [filteredItems, setFilteredItems] = useState([]);
-  useEffect(() => {
-    //setFilteredItems(eventsData.filter((elm) => elm.city == filterOption));
-    setFilteredItems(eventsData);
-  }, [filterOption]);
+const FilterHotels2 = ({ eventsData }) => {
+  const [events, setEvents] = useState(eventsData);
 
   var itemSettings = {
     dots: true,
@@ -50,7 +45,7 @@ const FilterHotels2 = ({ filterOption }) => {
 
   return (
     <>
-      {filteredItems.slice(0, 8).map((item) => (
+      {events.slice(0, 8).map((item) => (
         <div
           className="col-xl-3 col-lg-3 col-sm-6 col-6"
           key={item?.id}
