@@ -250,7 +250,7 @@ export default function CheckOut() {
                           type="submit"
                           className="tt-btn-default tt-btn__wide"
                         >
-                          <span>ÖDE</span>
+                          <span>SATIN AL</span>
                         </button>
                       </Form>
                     )}
