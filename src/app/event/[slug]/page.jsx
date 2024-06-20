@@ -7,6 +7,7 @@ import SidebarRight from "@/components/rental-single/SidebarRight";
 import NotFound from "@/components/common/NotFound";
 import Link from "next/link";
 import TourGallery from "@/components/tour-single/TourGallery";
+import AvailableRooms from "@/components/hotel-single/AvailableRooms";
 
 export async function generateMetadata({ params }) {
   const eventData = rentalsData.find((item) => item.slug == params.slug);
@@ -93,6 +94,7 @@ export default function Page({ params }) {
 
         <TourGallery tour={rental} />
         {/* End single page content */}
+        <AvailableRooms event={rental} />
       </>
     );
   } else {

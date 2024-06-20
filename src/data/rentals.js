@@ -6,6 +6,8 @@ module.exports = [
     title: "Madrigal Konseri",
     slug: "madrigal-konseri",
     location: "FRIDAY, SEP 13, 2024 22:30",
+    eventLocation: "Bodrum Antik Tiyatro",
+    eventLocationAddress: "Yeniköy, Kıbrıs Şehitleri Cd., 48400 Bodrum/Muğla",
     ratings: "4.8",
     numberOfReviews: "3014",
     price: "72",
@@ -21,6 +23,8 @@ module.exports = [
     title: "Sagopa Kajmer",
     slug: "sagopa-kajmer",
     location: "FRIDAY, JUN 7, 2024 22:30",
+    eventLocation: "Alemdağ Kültür Merkezi",
+    eventLocationAddress: "Alemdağ Mh. 109 Sk. Çekmeköy/İstanbul",
     ratings: "4.8",
     numberOfReviews: "3014",
     price: "72",
@@ -36,6 +40,8 @@ module.exports = [
     title: "Lvbel C5 Konseri",
     slug: "lvbel-c5",
     location: "FRIDAY, JUN 21, 2024 00:00",
+    eventLocation: "Alemdağ Spor Kulübü",
+    eventLocationAddress: "Alemdağ Mh. Alemdağ Cad. Çekmeköy/İstanbul",
     ratings: "4.8",
     numberOfReviews: "3014",
     price: "72",
@@ -46,7 +52,7 @@ module.exports = [
   },
 
 
-  
+
 
   // {
   //   id: 3,
