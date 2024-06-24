@@ -7,7 +7,7 @@ import { SlLocationPin } from "react-icons/sl";
 const AvailableRooms = ({ event }) => {
   return (
     <>
-      <div className="border-light rounded-4 px-30 py-30 sm:px-20 sm:py-20 container eventDetailContainer">
+      <div className="border-light rounded-4 px-30 py-30 sm:px-20 sm:py-20 container eventDetailContainer mb-20">
         <div className="row y-gap-20">
           <div className="col-12">
             <h3 className="fw-500 mb-15">

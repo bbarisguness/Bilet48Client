@@ -8,39 +8,25 @@ const Travellers = () => {
   const destinations3 = [
     {
       id: 1,
-      img: "/img/destinations/1/1.png",
-      title: "United Kingdom",
+      img: "/img/events/sago.jpg",
+      title: "Sagopa Kajmer Konseri",
       travellers: "147,681",
       delayAnimation: "0",
     },
     {
       id: 2,
-      img: "/img/destinations/1/2.png",
-      title: "Italy",
+      img: "/img/events/madrigl.jpg",
+      title: "Madrigal Konseri",
       travellers: "147,681",
       delayAnimation: "100",
     },
     {
       id: 3,
-      img: "/img/destinations/1/3.png",
-      title: "France",
+      img: "/img/events/levelc5.jpg",
+      title: "Level C5 Konseri",
       travellers: "147,681",
       delayAnimation: "200",
-    },
-    {
-      id: 4,
-      img: "/img/destinations/1/4.png",
-      title: "Turkey",
-      travellers: "147,681",
-      delayAnimation: "300",
-    },
-    {
-      id: 5,
-      img: "/img/destinations/1/5.png",
-      title: "Spain",
-      travellers: "147,681",
-      delayAnimation: "400",
-    },
+    }
   ];
   return (
     <div className="pt-40 overflow-hidden js-section-slider">

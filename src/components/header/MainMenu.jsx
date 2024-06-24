@@ -29,8 +29,8 @@ const MainMenu = ({ style = "" }) => {
             isActiveLink("/", pathname) ? "current" : ""
           } menu-item-has-children`}
         >
-          <Link href="/">
-            <span className="mr-10">Anasayfa</span>
+          <Link href="/hakkimizda">
+            <span className="mr-10">Hakkımızda</span>
           </Link>
           {/* <ul className="subnav">
             {homeItems.map((menu, i) => (
@@ -53,7 +53,7 @@ const MainMenu = ({ style = "" }) => {
           } menu-item-has-children`}
         >
           <Link href="/event">
-            <span className="mr-10">Etkinlik</span>
+            <span className="mr-10">Etkinlikler</span>
           </Link>
         </li>
 
@@ -99,6 +99,16 @@ const MainMenu = ({ style = "" }) => {
               </li>
             ))}
           </ul> */}
+        </li>
+
+        <li
+          className={`${
+            isActiveParentChaild(blogItems, pathname) ? "current" : ""
+          } menu-item-has-children`}
+        >
+          <Link href="/iletisim">
+            <span className="mr-10">İletişim </span>
+          </Link>
         </li>
         {/* End blogIems */}
 
