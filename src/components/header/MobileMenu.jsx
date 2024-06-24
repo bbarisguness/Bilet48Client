@@ -136,10 +136,10 @@ const MobileMenu = () => {
 
           <MenuItem
             data-bs-dismiss="offcanvas"
-            onClick={() => router.push("/")}
-            className={pathname === "/" ? "menu-active-link" : ""}
+            onClick={() => router.push("/hakkimizda")}
+            className={pathname === "/hakkimizda" ? "menu-active-link" : ""}
           >
-            Home
+            Hakkımızda
           </MenuItem>
 
           {/* <MenuItem
@@ -172,6 +172,14 @@ const MobileMenu = () => {
             }
           >
             Blog
+          </MenuItem>
+
+          <MenuItem
+            data-bs-dismiss="offcanvas"
+            onClick={() => router.push("/iletisim")}
+            className={pathname === "/iletisim" ? "menu-active-link" : ""}
+          >
+            İletişim
           </MenuItem>
 
           {/* <SubMenu
@@ -269,7 +277,7 @@ const MobileMenu = () => {
       <div className="pro-footer">
         <ContactInfo />
         <div className="mt-10">
-          <h5 className="text-16 fw-500 mb-10">Follow us on social media</h5>
+          <h5 className="text-16 fw-500 mb-10">Bizi sosyal medyada takip edin</h5>
           <div className="d-flex x-gap-20 items-center">
             <Social />
           </div>

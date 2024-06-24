@@ -26,7 +26,7 @@ const MainMenu = ({ style = "" }) => {
       <ul className={`menu__nav ${style} -is-active`}>
         <li
           className={`${
-            isActiveLink("/", pathname) ? "current" : ""
+            isActiveLink("/hakkimizda", pathname) ? "current" : ""
           } menu-item-has-children`}
         >
           <Link href="/hakkimizda">
@@ -103,12 +103,24 @@ const MainMenu = ({ style = "" }) => {
 
         <li
           className={`${
-            isActiveParentChaild(blogItems, pathname) ? "current" : ""
+            isActiveLink("/iletisim", pathname) ? "current" : ""
           } menu-item-has-children`}
         >
           <Link href="/iletisim">
-            <span className="mr-10">İletişim </span>
+            <span className="mr-10">İletişim</span>
           </Link>
+          {/* <ul className="subnav">
+            {homeItems.map((menu, i) => (
+              <li
+                key={i}
+                className={
+                  isActiveLink(menu.routePath, pathname) ? "current" : ""
+                }
+              >
+                <Link href={menu.routePath}>{menu.name}</Link>
+              </li>
+            ))}
+          </ul> */}
         </li>
         {/* End blogIems */}
 
