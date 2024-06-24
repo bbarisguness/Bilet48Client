@@ -15,7 +15,7 @@ const ContactForm = () => {
         <div className="form-input">
           <input type="text" id="name" required />
           <label htmlFor="name" className="lh-1 text-16 text-light-1">
-            Full Name
+            Ad Soyad
           </label>
         </div>
       </div>
@@ -31,7 +31,7 @@ const ContactForm = () => {
         <div className="form-input">
           <input type="text" id="phone" required />
           <label htmlFor="phone" className="lh-1 text-16 text-light-1">
-            Phone
+            Telefon
           </label>
         </div>
       </div>
@@ -39,7 +39,7 @@ const ContactForm = () => {
         <div className="form-input">
           <input type="text" id="subject" required />
           <label htmlFor="subject" className="lh-1 text-16 text-light-1">
-            Subject
+            Konu
           </label>
         </div>
       </div>
@@ -47,7 +47,7 @@ const ContactForm = () => {
         <div className="form-input">
           <textarea id="message" required rows="4"></textarea>
           <label htmlFor="message" className="lh-1 text-16 text-light-1">
-            Your Message
+            Mesajınız
           </label>
         </div>
       </div>
@@ -56,7 +56,7 @@ const ContactForm = () => {
           type="submit"
           className="button px-24 h-50 -dark-1 bg-blue-1 text-white"
         >
-          Send Message <div className="icon-arrow-top-right ml-15"></div>
+          Mesaj Gönder <div className="icon-arrow-top-right ml-15"></div>
         </button>
       </div>
     </form>

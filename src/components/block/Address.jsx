@@ -3,7 +3,7 @@ const Address = () => {
     {
       id: 1,
       colClass: "col-lg-3",
-      title: "Address",
+      title: "Adres",
       content: (
         <>328 Queensberry Street, North Melbourne VIC 3051, Australia.</>
       ),
@@ -11,21 +11,21 @@ const Address = () => {
     {
       id: 2,
       colClass: "col-auto",
-      title: "Toll Free Customer Care",
+      title: "Ücretsiz Müşteri Hizmetleri",
       content: (
         <>
-          <a href="tel:+4733378901">+47 333 78 901</a>
+          <a href="tel:+903121262">+(90) 312 12 62</a>
         </>
       ),
     },
     {
       id: 3,
       colClass: "col-auto",
-      title: "Need live support?",
+      title: "Desteğe mi ihtiyacınız var ?",
       content: (
         <>
           {" "}
-          <a href="mailto:i@gotrip.com">hi@gotrip.com</a>
+          <a href="mailto:bilet48@gmail.com">bilet48@gmail.com</a>
         </>
       ),
     },
