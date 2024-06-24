@@ -761,6 +761,64 @@
  *	---------------------------------------------
  */
 
+/*
+ *	DETAİL PAGES, Overview START
+ *	---------------------------------------------
+ */
+
+.overviewContentContainer {
+  position: relative;
+  height: 280px;
+  overflow: hidden;
+}
+
+.overviewContentContainer.active {
+  height: auto;
+  overflow: visible;
+}
+
+.overviewContentContainer .readMore {
+  width: 100%;
+  height: 224px;
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, #ffffff 100%);
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  display: flex;
+  align-items: flex-end;
+}
+
+.overviewContentContainer .readMore.active {
+  background: transparent;
+}
+
+.overviewContentContainer .readMore.active .allButton .first {
+  display: none;
+}
+
+.overviewContentContainer .readMore.active .allButton .last {
+  display: block;
+  position: relative;
+  top: 28px;
+}
+
+.overviewContentContainer .readMore .allButton {
+  cursor: pointer;
+  color: #7e53f9;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 21px;
+}
+
+.overviewContentContainer .readMore .allButton .last {
+  display: none;
+}
+
+/*
+ *	DETAİL PAGES, Overview END
+ *	---------------------------------------------
+ */
+
 @media only screen and (max-width: 1400px) {
   .page-menu {
     padding: 15px 20px;
