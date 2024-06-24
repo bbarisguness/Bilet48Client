@@ -156,12 +156,12 @@ const Header6 = () => {
 
                 {/* Start mobile menu icon */}
                 <div className="d-none xl:d-flex x-gap-20 items-center pl-30">
-                  <div>
+                  {/* <div>
                     <Link
                       href="/login"
                       className="d-flex items-center icon-user text-inherit"
                     />
-                  </div>
+                  </div> */}
                   <div>
                     <button
                       className="d-flex items-center icon-menu text-inherit text-20"
