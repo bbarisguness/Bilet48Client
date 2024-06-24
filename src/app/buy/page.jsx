@@ -19,7 +19,7 @@ export default function Page() {
       <div style={{ marginTop: 90, backgroundColor: "#f1f1f1" }}>
         <div className="section-indent05 pt-80">
           <div className="container">
-            <div className="row">
+            <div className="row pb-40">
               <div
                 className="col-md-6"
                 style={{
@@ -244,8 +244,12 @@ export default function Page() {
                 </h5>
                 <Gallery>
                   <div
-                    className="galleryGrid__item"
-                    style={{ position: "relative" }}
+                    className="galleryGrid__item p-5"
+                    style={{
+                      position: "relative",
+                      backgroundColor: "#fff",
+                      borderRadius: 20,
+                    }}
                   >
                     <Item
                       original={"/img/oturmaPlani.jpeg"}
