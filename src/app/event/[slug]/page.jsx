@@ -43,10 +43,25 @@ export default function Page({ params }) {
         <section className="pt-40">
           <div className="container">
             <div className="row y-gap-30">
-              <div className="col-12">
+              <div className="col-sm-12 col-xl-8">
                 <div className="row justify-between items-end">
-                  <div className="col-auto">
-                    <h1 className="text-26 fw-600">{rental?.title}</h1>
+                  <div>
+                    <div style={{ display: "flex", flexDirection: "row", alignItems: "center", justifyContent: "space-between" }}>
+                      <h1 className="text-26 fw-600">{rental?.title}</h1>
+                      <div className="col-auto">
+                        <div className="row x-gap-10 y-gap-10 flex-row-reverse">
+                          <div className="col-auto">
+                            <Link
+                              href="/buy"
+                              className="button px-15 py-10 -blue-1 bg-blue-1 text-white"
+                            >
+                              <i className="icon-ticket mr-10 text-white" />
+                              BİLET AL
+                            </Link>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
                     <div className="row x-gap-20 y-gap-20 items-center pt-10">
                       <div className="col-auto">
                         <div className="row x-gap-10 items-center">
