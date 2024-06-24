@@ -24,7 +24,7 @@
   position: absolute;
   bottom: 0;
   right: 0;
-  background-color: #252427;
+  background-color: #13357b;
   padding: 0 15px;
   color: #fff;
   border-radius: 20px 0 0 0;
@@ -97,7 +97,7 @@
 
 .eventInformation .rules > ul p:before {
   content: "";
-  background: #2ed87b;
+  background: #13357b;
   width: 10px;
   height: 75%;
   position: absolute;
@@ -500,6 +500,18 @@
 }
 
 /*
+ *	Detay, Event Detay Detay BEGİN
+ *	---------------------------------------------
+ */
+.eventDetailContainer {
+  width: 100%;
+}
+/*
+ *	Detay, Event Detay Detay END
+ *	---------------------------------------------
+ */
+
+/*
  *	FOOTER, LİNK PAGES BEGİN
  *	---------------------------------------------
  */
@@ -883,5 +895,8 @@
   }
   .contact-home .contact-home-area .contact-home-box span b {
     margin-bottom: 0;
+  }
+  .eventDetailContainer {
+    width: 90%;
   }
 }

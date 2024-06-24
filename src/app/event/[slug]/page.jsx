@@ -7,6 +7,7 @@ import SidebarRight from "@/components/rental-single/SidebarRight";
 import NotFound from "@/components/common/NotFound";
 import Link from "next/link";
 import TourGallery from "@/components/tour-single/TourGallery";
+import AvailableRooms from "@/components/hotel-single/AvailableRooms";
 
 export async function generateMetadata({ params }) {
   const eventData = rentalsData.find((item) => item.slug == params.slug);
@@ -71,30 +72,6 @@ export default function Page({ params }) {
                   </div>
                   {/* End .col-auto */}
 
-                  <div className="col-auto">
-                    <div className="row x-gap-10 y-gap-10">
-                      {/* <div className="col-auto">
-                              <button className="button px-15 py-10 -blue-1 mt-10">
-                                <i className="icon-share  mr-10" />
-                                Share
-                              </button>
-                            </div> */}
-
-                      {/* End .col-auto */}
-
-                      {/* <div className="col-auto">
-                        <Link
-                          href="/buy"
-                          className="button px-15 py-10 -blue-1 bg-light-2 mt-10"
-                        >
-                          <i className="icon-ticket mr-10" />
-                          BİLET AL
-                        </Link>
-                      </div> */}
-                      {/* End .col-auto */}
-                    </div>
-                    {/* End .row */}
-                  </div>
                   {/* End .col-auto */}
                 </div>
                 {/* End .row */}
@@ -117,6 +94,7 @@ export default function Page({ params }) {
 
         <TourGallery tour={rental} />
         {/* End single page content */}
+        <AvailableRooms event={rental} />
       </>
     );
   } else {

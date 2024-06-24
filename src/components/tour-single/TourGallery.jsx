@@ -9,6 +9,7 @@ import { Gallery, Item } from "react-photoswipe-gallery";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation } from "swiper";
 import ModalVideo from "react-modal-video";
+import Link from "next/link";
 
 export default function TourGallery({ tour }) {
   const [isOpen, setOpen] = useState(false);
@@ -26,6 +27,20 @@ export default function TourGallery({ tour }) {
         <div className="container">
           <div className="row y-gap-30">
             <div className="col-xl-8">
+              <div className="col-auto mb-3">
+                <div className="row x-gap-10 y-gap-10 flex-row-reverse">
+                  <div className="col-auto">
+                    <Link
+                      href="/buy"
+                      className="button px-15 py-10 -blue-1 bg-blue-1 mt-10 text-white"
+                    >
+                      <i className="icon-ticket mr-10 text-white" />
+                      BİLET AL
+                    </Link>
+                  </div>
+                </div>
+              </div>
+
               <div className="relative d-flex justify-center overflow-hidden js-section-slider">
                 <Swiper
                   modules={[Navigation]}
