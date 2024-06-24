@@ -43,9 +43,9 @@ export default function Home({ params, searchParams }) {
           <div className="row justify-center text-center">
             <div className="col-auto">
               <div className="sectionTitle -md">
-                <h2 className="sectionTitle__title">Events</h2>
+                <h2 className="sectionTitle__title">Yaklaşan Etkinlikler</h2>
                 <p className=" sectionTitle__text mt-5 sm:mt-0">
-                  Interdum et malesuada fames ac ante ipsum
+                  Birbirinden değerli etkinlikleri Muğla'da yaşa.. 
                 </p>
               </div>
             </div>
@@ -58,7 +58,7 @@ export default function Home({ params, searchParams }) {
                 href="/event"
                 className="button px-40 h-50 -outline-blue-1 text-blue-1"
               >
-                View All <div className="icon-arrow-top-right ml-15" />
+                Tüm etkinlikler <div className="icon-arrow-top-right ml-15" />
               </Link>
             </div>
           </div>

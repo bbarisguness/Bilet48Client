@@ -1,7 +1,7 @@
 module.exports = [
   {
     id: 1,
-    title: "Company",
+    title: "",
     menuList: [
       { name: "Hakkımızda", routerPath: "/hakkimizda" },
       { name: "İletişim", routerPath: "/iletisim" },
@@ -10,7 +10,7 @@ module.exports = [
   },
   {
     id: 2,
-    title: "Support",
+    title: "",
     menuList: [
       { name: "Gizlilik Politikası", routerPath: "/gizlilik-politikasi" },
       { name: "Kullanıcı Sözleşmesi", routerPath: "/kullanici-sozlesmesi" },
@@ -18,7 +18,7 @@ module.exports = [
   },
   {
     id: 3,
-    title: "Other Services",
+    title: "",
     menuList: [
       { name: "Kvkk", routerPath: "/kvkk" },
       { name: "Kullanım Koşulları", routerPath: "/kullanim-kosullari" },

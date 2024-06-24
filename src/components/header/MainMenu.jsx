@@ -30,7 +30,7 @@ const MainMenu = ({ style = "" }) => {
           } menu-item-has-children`}
         >
           <Link href="/">
-            <span className="mr-10">Home</span>
+            <span className="mr-10">Anasayfa</span>
           </Link>
           {/* <ul className="subnav">
             {homeItems.map((menu, i) => (
@@ -53,7 +53,7 @@ const MainMenu = ({ style = "" }) => {
           } menu-item-has-children`}
         >
           <Link href="/event">
-            <span className="mr-10">Event</span>
+            <span className="mr-10">Etkinlik</span>
           </Link>
         </li>
 
