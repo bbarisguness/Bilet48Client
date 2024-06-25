@@ -12,20 +12,24 @@ const Footer8 = () => {
         <div className="pt-60 pb-60">
           <div className="row y-gap-40 justify-between xl:justify-start">
             <div className="col-xl-4 col-lg-6">
-              <img src="/img/general/logo-light.svg" alt="image" />
+              <div style={{ display: "flex", alignItems: "center", gap: 10 }}>
+                <img
+                  src="/img/general/logo-light-without-text.png"
+                  alt="image"
+                />
+                <span style={{ fontSize: 22 }}>Bilet48</span>
+              </div>
               <div className="row y-gap-30 justify-between pt-30">
                 <ContactInfo />
               </div>
               {/* End .row */}
 
               {/* End .row */}
-
             </div>
             {/* End .col */}
 
             <div className="col-lg-6">
               <div className="row y-gap-30">
-               
                 <FooterContent />
               </div>
               {/* End .row */}
