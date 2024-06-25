@@ -79,6 +79,7 @@ export default function CheckOut() {
                   display: "flex",
                   flexDirection: "column",
                   alignItems: "center",
+                  marginBottom: 30
                 }}
               >
                 <h4

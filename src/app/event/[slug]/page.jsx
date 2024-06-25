@@ -43,7 +43,7 @@ export default function Page({ params }) {
         <section className="pt-40">
           <div className="container">
             <div className="row y-gap-30">
-              <div className="col-sm-12 col-xl-8">
+              <div className="col-sm-12 col-xl-12">
                 <div className="row justify-between items-end">
                   <div>
                     <div style={{ display: "flex", flexDirection: "row", alignItems: "center", justifyContent: "space-between" }}>

@@ -34,7 +34,7 @@ export default function Page() {
                 >
                   Kategori seçin
                 </h4>
-                <h5 style={{ marginBottom: 20, color: "#b5b5b5" }}>
+                <h5 style={{ marginBottom: 20, color: "#b5b5b5", textAlign: "center" }}>
                   Satın almak istediğiniz kategoriyi seçebilirsiniz.
                 </h5>
 

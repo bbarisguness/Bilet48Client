@@ -26,7 +26,7 @@ const index = () => {
                     <div className="masthead__bg">
                       <img src="/img/masthead/homeSlider1.jpg" alt="image" />
                     </div>
-                    <div
+                    {/* <div
                       className="text-white"
                       data-aos="fade-up"
                       data-aos-delay="100"
@@ -40,7 +40,7 @@ const index = () => {
                     >
                       Unique Houses Are Waiting
                       <br className="lg:d-none" /> For You
-                    </h1>
+                    </h1> */}
                   </div>
                 </div>
               </div>
@@ -55,7 +55,7 @@ const index = () => {
                     <div className="masthead__bg">
                       <img src="/img/masthead/homeSlider2.jpg" alt="image" />
                     </div>
-                    <div
+                    {/* <div
                       className="text-white"
                       data-aos="fade-up"
                       data-aos-delay="100"
@@ -69,7 +69,7 @@ const index = () => {
                     >
                       Unique Houses Are Waiting
                       <br className="lg:d-none" /> For You
-                    </h1>
+                    </h1> */}
                   </div>
                 </div>
               </div>

@@ -1,6 +1,14 @@
-/* Header STYLE BEGİN */
-
-/* Header STYLE END */
+/* HOME STYLE BEGİN */
+.masthead__bg::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: transparent !important;
+}
+/* HOME STYLE END */
 
 .ticketCategoryItem {
   position: relative;
