@@ -41,9 +41,6 @@ export default function CheckOut() {
     router.push("/");
     return;
   }
-  const clickContactFormButton = () => {
-    document.getElementsByName("nameAndSurname")[0].focus();
-  };
 
   const formatPhoneNumber = (value) => {
     if (!value) return value;
@@ -79,7 +76,7 @@ export default function CheckOut() {
                   display: "flex",
                   flexDirection: "column",
                   alignItems: "center",
-                  marginBottom: 30
+                  marginBottom: 30,
                 }}
               >
                 <h4
@@ -119,8 +116,8 @@ export default function CheckOut() {
                       //showContactFormSuccesMessage()
                       //actions.resetForm();
                       //document.getElementsByName("nameAndSurname")[0].blur();
-                      console.log(values);
-                      //router.push("/congratulation");
+                      //console.log(values);
+                      router.push("/congratulation");
                     }}
                   >
                     {({
@@ -174,7 +171,7 @@ export default function CheckOut() {
                               const formattedPhoneNumber = formatPhoneNumber(
                                 e.target.value
                               );
-                              setFieldValue("phone", formattedPhoneNumber)
+                              setFieldValue("phone", formattedPhoneNumber);
                             }}
                           />
                           {errors.phone && touched.phone ? (
@@ -247,7 +244,6 @@ export default function CheckOut() {
                           </div>
                         </div>
                         <button
-                          onClick={clickContactFormButton}
                           type="submit"
                           className="tt-btn-default tt-btn__wide"
                         >

@@ -4,7 +4,6 @@ import { FaCheck } from "react-icons/fa";
 export default function CongratulationPage() {
   return (
     <>
-      <div className="header-margin"></div>
       <div className="text-center mt-5">
         <div className="container">
           <div className="congratulation-wrapper">
